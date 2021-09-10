@@ -530,6 +530,19 @@
 			"type": "UTXO"
 		}
 	},
+    {
+        "coin":"HONK",
+        "protocol":{
+            "type":"SLPTOKEN",
+            "protocol_data":{
+                "decimals":0,
+                "token_id":"7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+                "platform":"BCH",
+                "required_confirmations": 1
+            }
+        },
+        "mm2": 1
+    },
 	{
 		"coin": "BEER",
 		"asset": "BEER",
