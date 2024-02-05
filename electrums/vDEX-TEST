@@ -1,0 +1,11 @@
+[
+    {
+        "url": "fr1.cipig.net:20072",
+        "protocol": "SSL",
+        "contact": [
+            { "email": "cipi@komodoplatform.com" },
+            { "discord": "cipi#4502" }
+        ],
+        "ws_url": "fr1.cipig.net:30072"
+    }
+]

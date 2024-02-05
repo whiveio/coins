@@ -11919,6 +11919,42 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "vARRR-TEST",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "vARRR",
+    "fname": "vARRR (testnet)",
+    "is_testnet": true,
+    "rpcport": 27772,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "vDEX-TEST",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "vDEX",
+    "fname": "vDEX (testnet)",
+    "is_testnet": true,
+    "rpcport": 27778,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
     "coin": "VAL",
     "name": "validity",
     "fname": "Validity",
