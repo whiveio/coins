@@ -11919,7 +11919,7 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "vARRR-TEST",
+    "coin": "tvARRR",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "vARRR",
     "fname": "vARRR (testnet)",
@@ -11937,7 +11937,7 @@
     "trezor_coin": "Komodo"
   },
   {
-    "coin": "vDEX-TEST",
+    "coin": "tvDEX",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "vDEX",
     "fname": "vDEX (testnet)",
