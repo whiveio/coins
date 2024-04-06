@@ -6917,6 +6917,60 @@
     }
   },
   {
+    "coin": "KIP0002",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0002",
+    "fname": "KIP0002",
+    "rpcport": 46856,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "KIP0003",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0003",
+    "fname": "KIP0003",
+    "rpcport": 46866,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "KIP0004",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0004",
+    "fname": "KIP0004",
+    "rpcport": 46876,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
     "coin": "KMD",
     "name": "komodo",
     "fname": "Komodo",
