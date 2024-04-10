@@ -2372,6 +2372,15 @@
                 ]
             },
             {
+                "url": "electrum-eu.avn.network:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
+            },
+            {
                 "url": "electrum-us.avn.network:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -3544,12 +3553,20 @@
                 "protocol": "WSS"
             },
             {
-                "url": "bch.soul-dev.com:50004",
+                "url": "cashnode.bch.ninja:50004",
                 "protocol": "WSS"
             },
             {
-                "url": "cashnode.bch.ninja:50004",
-                "protocol": "WSS"
+                "url": "electrum3.cipig.net:30055",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -17944,7 +17961,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "",
+        "explorer_url": "https://kip0002.kmdexplorer.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -18003,7 +18020,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "explorer_block_url": "block/"
     },
     "KIP0003": {
         "coin": "KIP0003",
@@ -18012,7 +18030,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "",
+        "explorer_url": "https://kip0003.kmdexplorer.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -18071,7 +18089,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "explorer_block_url": "block/"
     },
     "KIP0004": {
         "coin": "KIP0004",
@@ -18080,7 +18099,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "",
+        "explorer_url": "https://kip0004.kmdexplorer.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -18139,7 +18158,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "explorer_block_url": "block/"
     },
     "KMD": {
         "coin": "KMD",
@@ -37202,6 +37222,15 @@
                         "email": "support@actioncoin.com"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.actioncoin.com:20001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -37479,71 +37508,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CRNC": {
-        "coin": "CRNC",
-        "type": "UTXO",
-        "name": "CrionicCoin",
-        "coinpaprika_id": "crnc-crionic",
-        "coingecko_id": "crionic",
-        "livecoinwatch_id": "CRNC",
-        "explorer_url": "https://explorer.crionic.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Crioniccoin Signed Message:\n",
-        "fname": "CrionicCoin",
-        "rpcport": 4466,
-        "pubtype": 28,
-        "p2shtype": 45,
-        "wiftype": 176,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "crnc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 20,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "links": {
-            "github": "https://github.com/diabaths/Crionic-Coin",
-            "homepage": "https://coin.crionic.org"
-        },
-        "electrum": [
-            {
-                "url": "coin.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
@@ -37641,6 +37605,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
