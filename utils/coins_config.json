@@ -746,6 +746,50 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ABY": {
+        "coin": "ABY",
+        "type": "UTXO",
+        "name": "ArtByte",
+        "coinpaprika_id": "aby-artbyte",
+        "coingecko_id": "artbyte",
+        "livecoinwatch_id": "ABY",
+        "explorer_url": "https://chainz.cryptoid.info/aby/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "ArtByte",
+        "isPoS": 1,
+        "rpcport": 9262,
+        "pubtype": 28,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 550,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "ADA-BEP20": {
         "coin": "ADA-BEP20",
         "type": "BEP-20",
@@ -2191,8 +2235,18 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -3837,6 +3891,10 @@
                 "protocol": "SSL"
             },
             {
+                "url": "bch.soul-dev.com:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "cashnode.bch.ninja:50002",
                 "protocol": "SSL"
             },
@@ -3854,6 +3912,10 @@
             },
             {
                 "url": "bch.imaginary.cash:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "bch.soul-dev.com:50004",
                 "protocol": "WSS"
             },
             {
@@ -12462,11 +12524,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -12478,11 +12535,6 @@
             },
             {
                 "url": "electrum1.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -16836,6 +16888,16 @@
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -39611,10 +39673,6 @@
             "homepage": "https://primecoin.io"
         },
         "electrum": [
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011",
-                "protocol": "TCP"
-            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
