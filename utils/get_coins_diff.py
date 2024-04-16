@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import requests
+import dotenv
 
 '''
 Use this script to determine which coins were added or removed between two commits.
@@ -9,9 +10,12 @@ https://github.com/KomodoPlatform/coins/commits/master/utils/coins_config.json
 
 You can use the full hash or the short hash (first 7 characters) of the commit.
 '''
+gh_pat = dotenv.get_key('.env', 'GH_PAT')
 
 def get_coins_from_commit(commit: str, org: str = "komodoplatform", repo: str = "coins") -> set:
     url = build_coins_config_url(commit, org="komodoplatform", repo="coins")
+    headers = {'Authorization': f'token {gh_pat}'}
+    print(f"Fetching coins from {url}")
     r = requests.get(url)
     try:
         return set(list(r.json().keys()))
