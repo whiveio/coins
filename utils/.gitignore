@@ -1,2 +1,3 @@
 __pycache__/
 electrum_scan_report.json
+.env
