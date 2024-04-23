@@ -21,7 +21,8 @@ BINANCE_DELISTED_COINS = [
     "MIR",
     "PAX",
     "SRM",
-    "VIA" "YFII",
+    "VIA",
+    "YFII",
 ]
 
 # TODO: Check all coins have an icon.
@@ -54,22 +55,17 @@ explorer_coins = [
 binance_quote_tickers = [
     "BTC",
     "ETH",
-    "BUSD",
     "BNB",
     "USDT",
     "USDC",
+    "TUSD",
     "BIDR",
     "XRP",
-    "BKRW",
-    "DUSD",
-    "DOGE",
     "TRX",
     "TRY",
     "EUR",
     "BRL",
     "GBP",
-    "TUSD",
-    "PAX",
     "AUD",
     "RUB",
     "NGN",
