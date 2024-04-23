@@ -20,6 +20,7 @@ BINANCE_DELISTED_COINS = [
     "MC",
     "MIR",
     "PAX",
+    "QI",
     "REP",
     "SRM",
     "VIA",
