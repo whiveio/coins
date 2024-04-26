@@ -3790,8 +3790,8 @@
   },  
   {
     "coin": "DPC",
-    "name": "dpowcoin",
-    "fname": "Dpowcoin",
+    "name": "dualpowecoin",
+    "fname": "Dualpowcoin",
     "rpcport": 42002,
     "pubtype": 55,
     "p2shtype": 28,
