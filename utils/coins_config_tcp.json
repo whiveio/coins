@@ -7227,18 +7227,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
@@ -21748,18 +21736,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.mooo.com:10001",
                 "contact": [
                     {
@@ -31705,8 +31681,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "VIA"
+        "explorer_block_url": "block/"
     },
     "VIA-segwit": {
         "coin": "VIA-segwit",
@@ -31764,8 +31739,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "VIA"
+        "explorer_block_url": "block/"
     },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",

@@ -31623,8 +31623,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "VIA"
+        "explorer_block_url": "block/"
     },
     "VIA-segwit": {
         "coin": "VIA-segwit",
@@ -31682,8 +31681,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "VIA"
+        "explorer_block_url": "block/"
     },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
