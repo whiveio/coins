@@ -14510,9 +14510,9 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "VOTE2023",
-    "asset": "VOTE2023",
-    "fname": "VOTE2023",
+    "coin": "VOTE2024",
+    "asset": "VOTE2024",
+    "fname": "VOTE2024",
     "wallet_only": true,
     "rpcport": 25435,
     "txversion": 4,
