@@ -37409,7 +37409,7 @@
     "ATOM-IBC_IRIS": {
         "coin": "ATOM-IBC_IRIS",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos IBC-IRIS",
+        "name": "Cosmos",
         "coinpaprika_id": "atom-cosmos",
         "coingecko_id": "cosmos-hub",
         "livecoinwatch_id": "ATOM",
@@ -37421,7 +37421,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Cosmos IBC-IRIS",
+        "fname": "Cosmos",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -37867,7 +37867,7 @@
     "IRISTEST-IBC_NUCLEUSTEST": {
         "coin": "IRISTEST-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
-        "name": "Iris Test IBC-NUCLEUSTEST",
+        "name": "Iris Test",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -37880,7 +37880,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "avg_blocktime": 5,
-        "fname": "Iris Test IBC-NUCLEUSTEST",
+        "fname": "Iris Test",
         "mm2": 1,
         "protocol": {
             "type": "TENDERMINTTOKEN",
@@ -37901,7 +37901,7 @@
     "ATOM-IBC_NUCLEUSTEST": {
         "coin": "ATOM-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos IBC-NUCLEUSTEST",
+        "name": "Cosmos",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "ATOM",
@@ -37914,7 +37914,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "avg_blocktime": 5,
-        "fname": "Cosmos IBC-NUCLEUSTEST",
+        "fname": "Cosmos",
         "mm2": 1,
         "protocol": {
             "type": "TENDERMINTTOKEN",
@@ -37936,7 +37936,7 @@
     "OSMO-IBC_NUCLEUSTEST": {
         "coin": "OSMO-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
-        "name": "Osmosis IBC-NUCLEUSTEST",
+        "name": "Osmosis",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "OSMO",
@@ -37949,7 +37949,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "avg_blocktime": 5,
-        "fname": "Osmosis IBC-NUCLEUSTEST",
+        "fname": "Osmosis",
         "mm2": 1,
         "protocol": {
             "type": "TENDERMINTTOKEN",
