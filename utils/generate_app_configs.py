@@ -151,7 +151,8 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
-            "tIRIS": "TENDERMINT",
+            "IRISTEST": "TENDERMINT",
+            "NUCLEUSTEST": "TENDERMINT",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq",
         }
@@ -367,14 +368,13 @@ class CoinConfig:
             return token_type
 
         if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
-            if self.ticker.find("_ATOM") > -1:
-                return "ATOM"
-            elif self.ticker.find("_IRIS") > -1:
-                if self.data[self.ticker]["is_testnet"]:
-                    return "tIRIS"
-                return "IRIS"
-            elif self.ticker.find("_OSMO") > -1:
-                return "OSMO"
+            for i in ["IRISTEST", "NUCLEUSTEST"]:
+                if self.ticker.find(i) > -1:
+                    self.is_testnet = True
+                    return i
+            for i in ["IBC_IRIS", "IBC_ATOM", "IBC_OSMO"]:
+                if self.ticker.find(i) > -1:
+                    return i.replace("IBC_", "")
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
