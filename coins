@@ -1667,6 +1667,7 @@
     "name": "bidr_bep20",
     "fname": "BIDR",
     "rpcport": 80,
+    "chain_id": 56,
     "mm2": 1,
     "avg_blocktime": 3,
     "required_confirmations": 3,
@@ -12338,6 +12339,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 15,
+    "chain_id": 1,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -14661,6 +14663,7 @@
     "avg_blocktime": 7,
     "name": "iris",
     "fname": "Iris",
+    "chain_id": 6688,
     "mm2": 1,
     "protocol": {
       "type": "TENDERMINT",
