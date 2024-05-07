@@ -37544,6 +37544,71 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRNC": {
+        "coin": "CRNC",
+        "type": "UTXO",
+        "name": "CrionicCoin",
+        "coinpaprika_id": "crnc-crionic",
+        "coingecko_id": "crionic",
+        "livecoinwatch_id": "CRNC",
+        "explorer_url": "https://explorer.crionic.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Crioniccoin Signed Message:\n",
+        "fname": "CrionicCoin",
+        "rpcport": 4466,
+        "pubtype": 28,
+        "p2shtype": 45,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "crnc",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 20,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "links": {
+            "github": "https://github.com/diabaths/Crionic-Coin",
+            "homepage": "https://coin.crionic.org"
+        },
+        "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
