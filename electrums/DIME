@@ -1,17 +1,6 @@
 [
     {
-        "url": "electrumx2.dimecoinnetwork.com:50002",
-        "contact": [
-            {
-                "email": "developer@dimecoinnetwork.com"
-            },
-            {
-                "discord": "dhop14#9359"
-            }
-        ]
-    },
-    {
-        "url": "electrumx.dimecoinnetwork.com:50002",
+        "url": "electrumx.dimecoinnetwork.com:50001",
         "contact": [
             {
                 "email": "developer@dimecoinnetwork.com"
