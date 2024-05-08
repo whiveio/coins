@@ -6475,6 +6475,16 @@
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6518,6 +6528,16 @@
         "electrum": [
             {
                 "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -23226,11 +23246,11 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
-                "url": "pot-uno.ewmcx.net:50002",
+                "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "pot-duo.ewmcx.net:50012",
+                "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             }
         ],
@@ -37162,18 +37182,6 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -37187,6 +37195,18 @@
             },
             {
                 "url": "electrum4.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -37315,6 +37335,7 @@
                 "decimals": 6,
                 "denom": "uatom",
                 "account_prefix": "cosmos",
+                "chain_registry_name": "cosmoshub",
                 "chain_id": "cosmoshub-4"
             }
         },
@@ -37352,6 +37373,7 @@
                 "denom": "uiris",
                 "account_prefix": "iaa",
                 "chain_id": "irishub-1",
+                "chain_registry_name": "irishub",
                 "gas_price": 0.5
             }
         },
@@ -37391,6 +37413,7 @@
                 "decimals": 6,
                 "denom": "uosmo",
                 "account_prefix": "osmo",
+                "chain_registry_name": "osmosis",
                 "chain_id": "osmosis-1",
                 "gas_price": 0.5
             }
@@ -37854,6 +37877,7 @@
                 "decimals": 6,
                 "denom": "unucl",
                 "account_prefix": "nuc",
+                "chain_registry_name": "nucleus",
                 "chain_id": "nucleus-3"
             }
         },
