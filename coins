@@ -14651,6 +14651,7 @@
         "decimals": 6,
         "denom": "uatom",
         "account_prefix": "cosmos",
+        "chain_registry_name": "cosmoshub",
         "chain_id": "cosmoshub-4"
       }
     },
@@ -14669,6 +14670,7 @@
         "denom": "uiris",
         "account_prefix": "iaa",
         "chain_id": "irishub-1",
+        "chain_registry_name": "irishub",
         "gas_price": 0.5
       }
     },
@@ -14687,6 +14689,7 @@
         "decimals": 6,
         "denom": "uosmo",
         "account_prefix": "osmo",
+        "chain_registry_name": "osmosis",
         "chain_id": "osmosis-1",
         "gas_price": 0.5
       }
@@ -14906,6 +14909,7 @@
             "decimals": 6,
             "denom": "unucl",
             "account_prefix": "nuc",
+            "chain_registry_name": "nucleus",
             "chain_id": "nucleus-3"
         }
     }
