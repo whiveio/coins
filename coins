@@ -3855,6 +3855,29 @@
     }
   },
   {
+    "coin": "DIME",
+    "name": "dimecoin",
+    "fname": "Dimecoin",
+    "rpcport": 11931,
+    "pubtype": 15,
+    "p2shtype": 9,
+    "wiftype": 143,
+    "segwit": false,
+    "bech32_hrp": "",
+    "txfee": 1000,
+    "decimals": 5,
+    "mm2": 1,
+    "sign_message_prefix": "Dimecoin Signed Message:\n",
+    "required_confirmations": 6,
+    "avg_blocktime": 64,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/dime-coin/dimecoin/"
+    }
+  },
+  {
     "coin": "DIMI",
     "name": "diminutivecoin",
     "fname": "Diminutive Coin",
