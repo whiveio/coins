@@ -3863,7 +3863,7 @@
     "p2shtype": 9,
     "wiftype": 143,
     "segwit": false,
-    "bech32_hrp": "",
+    "bech32_hrp": "vx",
     "txfee": 1000,
     "decimals": 5,
     "mm2": 1,
