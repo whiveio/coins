@@ -14514,7 +14514,7 @@
     "asset": "VOTE2024",
     "fname": "VOTE2024",
     "wallet_only": true,
-    "rpcport": 25435,
+    "rpcport": 60916,
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
