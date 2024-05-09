@@ -1,7 +1,7 @@
 {
   "rpc_nodes": [
     {
-      "url": "https://nucleus-rpc.bravo.komodo.earth/"
+      "url": "https://iristest-rpc.bravo.komodo.earth/"
     }
   ]
 }
