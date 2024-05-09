@@ -6624,12 +6624,12 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "mumbai.ecoincore.com:34335",
+                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
-                "url": "woolloomooloo.ecoincore.com:34335",
+                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -6679,12 +6679,12 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "mumbai.ecoincore.com:34335",
+                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
-                "url": "woolloomooloo.ecoincore.com:34335",
+                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -7539,6 +7539,54 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "CLAM": {
+        "coin": "CLAM",
+        "type": "UTXO",
+        "name": "Clams",
+        "coinpaprika_id": "clam-clams",
+        "coingecko_id": "clams",
+        "livecoinwatch_id": "CLAM",
+        "explorer_url": "https://chainz.cryptoid.info/clam/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Clam Signed Message:\n",
+        "fname": "Clams",
+        "isPoS": 1,
+        "rpcport": 30174,
+        "pubtype": 137,
+        "p2shtype": 13,
+        "wiftype": 133,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/23'",
+        "links": {
+            "github": "https://github.com/nochowderforyou/clams",
+            "homepage": "http://clamclient.com"
+        },
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -37826,7 +37874,7 @@
         "derivation_path": "m/44'/566'",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://iristest-rpc.bravo.komodo.earth/"
             }
         ],
         "explorer_block_url": "#/blocks/"
@@ -37862,7 +37910,7 @@
         },
         "rpc_urls": [
             {
-                "url": "http://34.80.202.172:26657"
+                "url": "https://nucleus-rpc.bravo.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/"
@@ -37896,7 +37944,7 @@
         "parent_coin": "IRISTEST",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://iristest-rpc.bravo.komodo.earth/"
             }
         ],
         "explorer_block_url": "#/blocks/"
@@ -37930,7 +37978,7 @@
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
-                "url": "http://34.80.202.172:26657"
+                "url": "https://nucleus-rpc.bravo.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
@@ -37965,7 +38013,7 @@
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
-                "url": "http://34.80.202.172:26657"
+                "url": "https://nucleus-rpc.bravo.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
