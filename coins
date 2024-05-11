@@ -14660,7 +14660,7 @@
     "coin": "IRIS",
     "avg_blocktime": 7,
     "name": "iris",
-    "fname": "Iris",
+    "fname": "IRISnet",
     "mm2": 1,
     "protocol": {
       "type": "TENDERMINT",
@@ -14673,6 +14673,25 @@
       }
     },
     "derivation_path": "m/44'/566'"
+  },
+  {
+    "coin": "IRIS-BEP20",
+    "name": "iris_bep20",
+    "fname": "IRISnet",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "OSMO",
