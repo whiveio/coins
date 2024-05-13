@@ -4307,7 +4307,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20002",
+                "url": "electrum3.blackcoin.nl:30002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4317,7 +4317,7 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30002",
+                "url": "electrum2.blackcoin.nl:20002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4419,7 +4419,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20012",
+                "url": "electrum3.blackcoin.nl:30012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -4429,7 +4429,7 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30012",
+                "url": "electrum2.blackcoin.nl:20012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -7526,6 +7526,52 @@
             }
         ],
         "explorer_block_url": "block.dws?"
+    },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -31510,7 +31556,7 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11002",
+                "url": "e3.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -31520,7 +31566,7 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11002",
+                "url": "e2.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -34536,10 +34582,6 @@
                 ]
             },
             {
-                "url": "207.180.252.200:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "zet-ex-three.ewmci.online:50011",
                 "protocol": "TCP",
                 "contact": [
@@ -34547,6 +34589,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36981,6 +37027,15 @@
                 ]
             },
             {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -37717,6 +37772,9 @@
         "rpc_urls": [
             {
                 "url": "https://cosmos.komodo.earth/"
+            },
+            {
+                "url": "https://cosmos.blockpi.network/rpc/v1/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -38100,6 +38158,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

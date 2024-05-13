@@ -4291,7 +4291,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20002",
+                "url": "electrum3.blackcoin.nl:30002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4301,7 +4301,7 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30002",
+                "url": "electrum2.blackcoin.nl:20002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4403,7 +4403,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20012",
+                "url": "electrum3.blackcoin.nl:30012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -4413,7 +4413,7 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30012",
+                "url": "electrum2.blackcoin.nl:20012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -31434,7 +31434,7 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11002",
+                "url": "e3.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -31444,7 +31444,7 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11002",
+                "url": "e2.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -36706,6 +36706,15 @@
                 ]
             },
             {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -37391,6 +37400,9 @@
         "rpc_urls": [
             {
                 "url": "https://cosmos.komodo.earth/"
+            },
+            {
+                "url": "https://cosmos.blockpi.network/rpc/v1/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -37750,6 +37762,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

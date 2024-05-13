@@ -4384,16 +4384,6 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20004",
-                "protocol": "WSS",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.blackcoin.nl:30004",
                 "protocol": "WSS",
                 "disable_cert_verification": false,
@@ -4487,16 +4477,6 @@
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10014",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -5854,108 +5834,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "BTX": {
-        "coin": "BTX",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "livecoinwatch_id": "BTX",
-        "explorer_url": "https://chainz.cryptoid.info/btx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "BitCore",
-        "rpcport": 9469,
-        "pubtype": 3,
-        "p2shtype": 125,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "btx",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/160'",
-        "trezor_coin": "Bitcore",
-        "links": {
-            "github": "https://github.com/LIMXTEC/BitCore",
-            "homepage": "https://bitcore.cc"
-        },
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "BTX-segwit": {
-        "coin": "BTX-segwit",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "livecoinwatch_id": "BTX",
-        "explorer_url": "https://chainz.cryptoid.info/btx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "BitCore",
-        "rpcport": 9469,
-        "pubtype": 3,
-        "p2shtype": 125,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "btx",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "BTX",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/160'",
-        "trezor_coin": "Bitcore",
-        "links": {
-            "github": "https://github.com/LIMXTEC/BitCore",
-            "homepage": "https://bitcore.cc"
-        },
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
@@ -31473,16 +31351,6 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11004",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e3.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -37370,6 +37238,9 @@
         "rpc_urls": [
             {
                 "url": "https://cosmos.komodo.earth/"
+            },
+            {
+                "url": "https://cosmos.blockpi.network/rpc/v1/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -37729,6 +37600,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {

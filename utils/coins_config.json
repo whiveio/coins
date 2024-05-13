@@ -4770,15 +4770,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.blackcoin.nl:20001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum3.blackcoin.nl:30001",
                 "contact": [
                     {
@@ -4788,17 +4779,16 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.blackcoin.nl:10002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
+                "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
-                "url": "electrum2.blackcoin.nl:20002",
+                "url": "electrum1.blackcoin.nl:10002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4818,8 +4808,8 @@
                 ]
             },
             {
-                "url": "electrum1.blackcoin.nl:10004",
-                "protocol": "WSS",
+                "url": "electrum2.blackcoin.nl:20002",
+                "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
                     {
@@ -4828,7 +4818,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20004",
+                "url": "electrum1.blackcoin.nl:10004",
                 "protocol": "WSS",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4939,15 +4929,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.blackcoin.nl:20011",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum3.blackcoin.nl:30011",
                 "contact": [
                     {
@@ -4957,17 +4938,16 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.blackcoin.nl:10012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "electrum2.blackcoin.nl:20011",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
-                "url": "electrum2.blackcoin.nl:20012",
+                "url": "electrum1.blackcoin.nl:10012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -4987,8 +4967,8 @@
                 ]
             },
             {
-                "url": "electrum1.blackcoin.nl:10014",
-                "protocol": "WSS",
+                "url": "electrum2.blackcoin.nl:20012",
+                "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
                     {
@@ -4997,7 +4977,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20014",
+                "url": "electrum1.blackcoin.nl:10014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -6630,16 +6610,6 @@
                         "discord": "[MadCatMining]#0677"
                     }
                 ]
-            },
-            {
-                "url": "btx-electrumx.coinsmunity.com:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6687,16 +6657,6 @@
             {
                 "url": "btx-electrumx.coinsmunity.com:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
-            {
-                "url": "btx-electrumx.coinsmunity.com:50003",
-                "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
                     {
@@ -8637,6 +8597,52 @@
             }
         ],
         "explorer_block_url": "block.dws?"
+    },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -23918,11 +23924,11 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum9.getlynx.io:50002",
+                "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum8.getlynx.io:50002",
+                "url": "electrum9.getlynx.io:50002",
                 "protocol": "SSL"
             },
             {
@@ -37499,15 +37505,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "e2.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "e3.validitytech.com:11001",
                 "contact": [
                     {
@@ -37517,17 +37514,16 @@
                 "protocol": "TCP"
             },
             {
-                "url": "e1.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
-                "url": "e2.validitytech.com:11002",
+                "url": "e1.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -37547,8 +37543,8 @@
                 ]
             },
             {
-                "url": "e1.validitytech.com:11004",
-                "protocol": "WSS",
+                "url": "e2.validitytech.com:11002",
+                "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
                     {
@@ -37557,7 +37553,7 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11004",
+                "url": "e1.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -41176,10 +41172,6 @@
         },
         "electrum": [
             {
-                "url": "207.180.252.200:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "zet-ex-three.ewmci.online:50011",
                 "protocol": "TCP",
                 "contact": [
@@ -41187,6 +41179,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "zet-ex-three.ewmci.online:50012",
@@ -44383,6 +44379,15 @@
                 ]
             },
             {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -45342,6 +45347,9 @@
         "rpc_urls": [
             {
                 "url": "https://cosmos.komodo.earth/"
+            },
+            {
+                "url": "https://cosmos.blockpi.network/rpc/v1/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -45874,7 +45882,25 @@
                 ]
             },
             {
+                "url": "electrum3.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
