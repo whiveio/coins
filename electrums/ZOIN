@@ -10,12 +10,5 @@
         "disable_cert_verification": true,
         "ws_url": "electrum.zoincommunity.com:50004",
 	"contact": [{"github": "https://github.com/seopub/electrumx_zoin/issues"}]
-    },
-    {
-        "url": "electrum.zoincommunity.com:50002",
-        "protocol": "WSS",
-        "disable_cert_verification": true,
-        "ws_url": "electrum.zoincommunity.com:50004",
-	"contact": [{"github": "https://github.com/seopub/electrumx_zoin/issues"}]
     }
 ]
