@@ -3855,6 +3855,29 @@
     }
   },
   {
+    "coin": "DIME",
+    "name": "dimecoin",
+    "fname": "Dimecoin",
+    "rpcport": 11931,
+    "pubtype": 15,
+    "p2shtype": 9,
+    "wiftype": 143,
+    "segwit": false,
+    "bech32_hrp": "vx",
+    "txfee": 1000,
+    "decimals": 5,
+    "mm2": 1,
+    "sign_message_prefix": "Dimecoin Signed Message:\n",
+    "required_confirmations": 6,
+    "avg_blocktime": 64,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/dime-coin/dimecoin/"
+    }
+  },
+  {
     "coin": "DIMI",
     "name": "diminutivecoin",
     "fname": "Diminutive Coin",
@@ -14510,11 +14533,11 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "VOTE2023",
-    "asset": "VOTE2023",
-    "fname": "VOTE2023",
+    "coin": "VOTE2024",
+    "asset": "VOTE2024",
+    "fname": "VOTE2024",
     "wallet_only": true,
-    "rpcport": 25435,
+    "rpcport": 60916,
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
@@ -14661,7 +14684,7 @@
     "coin": "IRIS",
     "avg_blocktime": 7,
     "name": "iris",
-    "fname": "Iris",
+    "fname": "IRISnet",
     "mm2": 1,
     "protocol": {
       "type": "TENDERMINT",
@@ -14675,6 +14698,25 @@
       }
     },
     "derivation_path": "m/44'/566'"
+  },
+  {
+    "coin": "IRIS-BEP20",
+    "name": "iris_bep20",
+    "fname": "IRISnet",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "OSMO",
@@ -14963,6 +15005,30 @@
             "decimals": 6,
             "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23"
         }
+    }
+  },
+  {
+    "coin": "ZOIN",
+    "name": "zoin",
+    "fname": "ZoinCommunity",
+    "sign_message_prefix": "Zoincoin Signed Message:\n",
+    "rpcport": 8256,
+    "pubtype": 80,
+    "p2shtype": 53,
+    "wiftype": 208,
+    "segwit": false,
+    "txfee": 1000000,
+    "dust": 1000000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "github": "https://github.com/seopub/zoincomumity",
+      "homepage": "http://zoincommunity.com/"
     }
   }
 ]
