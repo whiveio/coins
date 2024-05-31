@@ -554,8 +554,6 @@ def parse_coins_repo():
         print(f"Errors:")
         for error in errors:
             print(error)
-    for coin in nodata:
-        del coins_config[coin]
     return coins_config, nodata
 
 
@@ -673,7 +671,7 @@ def filter_wss(coins_config):
 
 def generate_binance_api_ids(coins_config):
     mm2_coins = coins_config.keys()
-    r = requests.get("https://test.defi-stats.komodo.earth/api/v3/binance/ticker_price")
+    r = requests.get("https://defi-stats.komodo.earth/api/v3/binance/ticker_price")
     binance_tickers = r.json()
     pairs = []
     for ticker in binance_tickers:
@@ -711,9 +709,17 @@ def generate_binance_api_ids(coins_config):
 
 if __name__ == "__main__":
     coins_config, nodata = parse_coins_repo()
-    with open(f"{script_path}/coins_config.json", "w+") as f:
+    # Includes failing servers
+    with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
     generate_binance_api_ids(coins_config)
+
+    # Remove failing servers
+    for coin in nodata:
+        del coins_config[coin]
+    with open(f"{script_path}/coins_config.json", "w+") as f:
+        json.dump(coins_config, f, indent=4)
+        
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
