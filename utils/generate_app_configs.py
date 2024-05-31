@@ -44,6 +44,11 @@ electrum_coins = [
     for f in os.listdir(f"{repo_path}/electrums")
     if os.path.isfile(f"{repo_path}/electrums/{f}")
 ]
+tendermint_coins = [
+    f
+    for f in os.listdir(f"{repo_path}/tendermint")
+    if os.path.isfile(f"{repo_path}/tendermint/{f}")
+]
 ethereum_coins = [
     f
     for f in os.listdir(f"{repo_path}/ethereum")
@@ -443,11 +448,14 @@ class CoinConfig:
             self.data[self.ticker].update({"bchd_urls": bchd_urls[self.ticker]})
 
     def get_swap_contracts(self):
-        # TODO: update swap contracts to post-IRIS once Artem greenlights.
         contract_data = None
 
         if self.ticker in ethereum_coins:
             with open(f"{repo_path}/ethereum/{self.ticker}", "r") as f:
+                contract_data = json.load(f)
+
+        elif self.data[self.ticker]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]:
+            with open(f"{repo_path}/tendermint/{self.parent_coin}", "r") as f:
                 contract_data = json.load(f)
 
         elif self.ticker not in electrum_coins:
