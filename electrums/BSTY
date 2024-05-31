@@ -1,5 +1,13 @@
 [
     {
+        "url": "electrumserver01.globalboost.info:50011",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumserver02.globalboost.info:50011",
+        "protocol": "TCP"
+    },
+    {
         "url": "electrumserver01.globalboost.info:50014",
         "protocol": "SSL",
 	"ws_url": "electrumserver01.globalboost.info:50013"
