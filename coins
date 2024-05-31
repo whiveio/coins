@@ -14697,7 +14697,7 @@
         "gas_price": 0.5
       }
     },
-    "derivation_path": "m/44'/566'"
+    "derivation_path": "m/44'/556'"
   },
   {
     "coin": "IRIS-BEP20",
@@ -14735,7 +14735,8 @@
         "chain_id": "osmosis-1",
         "gas_price": 0.5
       }
-    }
+    },
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin": "ATOM-IBC_IRIS",
@@ -14934,12 +14935,11 @@
         "gas_price": 0.5
       }
     },
-    "derivation_path": "m/44'/566'"
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "NUCLEUSTEST",
     "avg_blocktime": 5,
-    "derivation_path": "m/44'/566'",
     "name": "nucleus-test",
     "fname": "Nucleus Test",
     "mm2": 1,
@@ -14954,7 +14954,8 @@
             "chain_registry_name": "nucleus",
             "chain_id": "nucleus-3"
         }
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin":"IRISTEST-IBC_NUCLEUSTEST",
@@ -14971,7 +14972,8 @@
             "decimals": 6,
             "denom": "ibc/F7F28FF3C09024A0225EDBBDB207E5872D2B4EF2FB874FE47B05EF9C9A7D211C"
         }
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin":"ATOM-IBC_NUCLEUSTEST",
