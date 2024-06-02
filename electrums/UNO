@@ -10,5 +10,13 @@
         "protocol": "SSL",
         "disable_cert_verification": true,
         "ws_url": "uno-main.coinmunity.gold:50003"
+    },
+    {
+        "url": "electrum.unobtanium.uno:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum2.unobtanium.uno:50001",
+        "protocol": "TCP"
     }
 ]
