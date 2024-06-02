@@ -14863,34 +14863,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
                 "url": "electrumx01.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx02.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -17518,6 +17491,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum15.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum16.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -17806,18 +17791,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum15.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -17881,6 +17854,18 @@
             },
             {
                 "url": "electrum14.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum15.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18169,18 +18154,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum15.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -27108,6 +27081,10 @@
         },
         "electrum": [
             {
+                "url": "nmc2.bitcoins.sk:57001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx1.nmc.dotbit.zone:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -27144,8 +27121,9 @@
                 ]
             },
             {
-                "url": "nmc2.bitcoins.sk:57001",
-                "protocol": "TCP"
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
@@ -27182,11 +27160,6 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
-            },
-            {
-                "url": "nmc2.bitcoins.sk:57002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27232,6 +27205,10 @@
         },
         "electrum": [
             {
+                "url": "nmc2.bitcoins.sk:57001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx1.nmc.dotbit.zone:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -27268,8 +27245,9 @@
                 ]
             },
             {
-                "url": "nmc2.bitcoins.sk:57001",
-                "protocol": "TCP"
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
@@ -27306,11 +27284,6 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
-            },
-            {
-                "url": "nmc2.bitcoins.sk:57002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36820,6 +36793,14 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
+            {
+                "url": "electrum.unobtanium.uno:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.unobtanium.uno:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
