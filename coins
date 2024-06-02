@@ -10938,6 +10938,101 @@
     }
   },
   {
+    "coin": "SYN-ERC20",
+    "name": "syn_erc20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "SYN-BEP20",
+    "name": "syn_bep20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xa4080f1778e69467E905B8d6F72f6e441f9e9484"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "SYN-PLG20",
+    "name": "syn_plg20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "SYN-AVX20",
+    "name": "syn_avx20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 2.4,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "SYN-FTM20",
+    "name": "syn_ftm20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0xE55e19Fb4F2D85af758950957714292DAC1e25B2"
+      }
+    },
+    "derivation_path": "m/44'/1007'"
+  },
+  {
     "coin": "SYS",
     "name": "syscoin",
     "fname": "Syscoin",
