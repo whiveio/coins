@@ -5,6 +5,7 @@ import json
 from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
+from ensure_chainids import ensure_chainids
 
 
 current_time = time.time()
@@ -708,6 +709,7 @@ def generate_binance_api_ids(coins_config):
 
 
 if __name__ == "__main__":
+    ensure_chainids()
     coins_config, nodata = parse_coins_repo()
     # Includes failing servers
     with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
