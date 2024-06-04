@@ -6098,6 +6098,63 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "IDRT-ERC20",
+    "name": "idrt_erc20",
+    "fname": "Rupiah Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 2,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "IDRT-BEP20",
+    "name": "idrt_bep20",
+    "fname": "Rupiah Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 2,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x66207E39bb77e6B99aaB56795C7c340C08520d83"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "IDRT-PLG20",
+    "name": "idrt_plg20",
+    "fname": "Rupiah Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "IL8P",
     "name": "infiniloop",
     "fname": "InfiniLooP",
