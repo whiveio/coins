@@ -14697,7 +14697,7 @@
         "gas_price": 0.5
       }
     },
-    "derivation_path": "m/44'/556'"
+    "derivation_path": "m/44'/566'"
   },
   {
     "coin": "IRIS-BEP20",
