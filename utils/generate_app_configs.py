@@ -15,17 +15,20 @@ os.chdir(script_path)
 
 BINANCE_DELISTED_COINS = [
     "ANT",
+    "BIDR",
     "GRS",
     "NAV",
     "BTT",
     "BUSD",
     "MC",
     "MIR",
+    "OMG",
     "PAX",
     "QI",
     "REP",
     "SRM",
     "VIA",
+    "WAVES",
     "YFII",
 ]
 
@@ -63,7 +66,6 @@ binance_quote_tickers = [
     "USDT",
     "USDC",
     "TUSD",
-    "BIDR",
     "XRP",
     "TRX",
     "TRY",
