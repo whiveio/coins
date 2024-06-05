@@ -324,7 +324,6 @@
     "XRP-BEP20": "XRP",
     "XRP-ERC20": "XRP",
     "XTZ-BEP20": "XTZ",
-    "XVG": "XVG",
     "XVS-BEP20": "XVS",
     "YFI-AVX20": "YFI",
     "YFI-BEP20": "YFI",
@@ -351,5 +350,7 @@
     "IRIS": "IRIS",
     "IRIS-BEP20": "IRIS",
     "OSMO": "OSMO",
-    "ATOM-IBC_IRIS": "ATOM"
+    "ATOM-IBC_IRIS": "ATOM",
+    "ATOM-IBC_NUCLEUSTEST": "ATOM",
+    "OSMO-IBC_NUCLEUSTEST": "OSMO"
 }

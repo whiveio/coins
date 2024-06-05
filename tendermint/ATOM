@@ -1,0 +1,10 @@
+{
+  "rpc_nodes": [
+    {
+      "url": "https://cosmos.komodo.earth/"
+    },
+    {
+      "url": "https://cosmos.blockpi.network/rpc/v1/public"
+    }    
+  ]
+}

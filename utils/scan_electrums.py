@@ -8,6 +8,7 @@ import socket
 import threading
 import asyncio
 import websockets
+from logger import logger
 
 
 ignore_list = []
@@ -33,6 +34,105 @@ def colorize(string, color):
             return str(string)
     else:
             return colors[color] + str(string) + '\033[0m'
+
+
+class ElectrumServer:
+    __slots__ = ("coin", "url", "port", "protocol", "result", "blockheight", "last_connection")
+    
+    def __init__(self, coin, url, port, protocol):
+        self.coin = coin
+        self.url = url
+        self.port = port
+        self.protocol = protocol
+        self.result = None
+        self.blockheight = -1
+        self.last_connection = -1
+
+    def tcp(self, method, params=None):
+        if params:
+            params = [params] if type(params) is not list else params
+        try:
+            with socket.create_connection((self.url, self.port)) as sock:
+                # Handshake
+                payload = {"id": 0, "method": "server.version", "params": ["kmd_coins_repo", ["1.4", "1.6"]]}
+                sock.send(json.dumps(payload).encode() + b'\n')
+                time.sleep(1)
+                resp = sock.recv(999999)[:-1].decode()
+                # logger.info(f"TCP {self.url}:{self.port} {resp}")
+                # Request
+                payload = {"id": 0, "method": method}
+                if params:
+                    payload.update({"params": params})
+                sock.send(json.dumps(payload).encode() + b'\n')
+                time.sleep(1)
+                resp = sock.recv(999999)[:-1].decode()
+                resp = resp.splitlines()
+                if len(resp) > 0:
+                    resp = resp[-1]
+                return resp
+        except Exception as e:
+            return e
+
+    def ssl(self, method, params=None):
+        if params:
+            params = [params] if type(params) is not list else params
+        context = ssl.SSLContext(verify_mode=ssl.CERT_NONE)
+        try:
+            with socket.create_connection((self.url, self.port)) as sock:
+                with context.wrap_socket(sock, server_hostname=self.url) as ssock:
+                    # Handshake
+                    payload = {"id": 0, "method": "server.version", "params": ["kmd_coins_repo", ["1.4", "1.6"]]}
+                    ssock.send(json.dumps(payload).encode() + b'\n')
+                    time.sleep(1)
+                    resp = ssock.recv(999999)[:-1].decode()
+                    # logger.info(f"SSL {self.url}:{self.port} {resp}")
+                    # Request                    
+                    payload = {"id": 0, "method": method}
+                    if params:
+                        payload.update({"params": params})
+                    ssock.send(json.dumps(payload).encode() + b'\n')
+                    time.sleep(1)
+                    resp = ssock.recv(999999)[:-1].decode()
+                    resp = resp.splitlines()
+                    if len(resp) > 0:
+                        resp = resp[-1]
+                    return resp
+        except Exception as e:
+            return e
+
+    def wss(self, method, params=None):    
+        if params:
+            params = [params] if type(params) is not list else params
+        
+        ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        ssl_context.check_hostname = False
+        ssl_context.verify_mode = ssl.CERT_NONE
+
+        try:
+            async def connect_and_query():
+                async with websockets.connect(f"wss://{self.url}:{self.port}", ssl=ssl_context, timeout=10) as websocket:
+                    # Handshake
+                    payload = {"id": 0, "method": "server.version", "params": ["kmd_coins_repo", ["1.4", "1.6"]]}
+                    await websocket.send(json.dumps(payload))
+                    await asyncio.sleep(1)
+                    resp = await asyncio.wait_for(websocket.recv(), timeout=7)
+                    payload = {"id": 0, "method": method}
+                    if params:
+                        payload.update({"params": params})
+                    await websocket.send(json.dumps(payload))
+                    await asyncio.sleep(1)
+                    resp = await asyncio.wait_for(websocket.recv(), timeout=7)
+                    resp = resp.splitlines()
+                    if len(resp) > 0:
+                        resp = resp[-1]
+                    return resp
+            
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            response = loop.run_until_complete(connect_and_query())
+            return response
+        except Exception as e:
+            return e
 
 
 def get_from_electrum(url, port, method, params=None):
@@ -104,117 +204,174 @@ def get_from_electrum_wss(url, port, method, params=None):
 
 
 class scan_thread(threading.Thread):
-    def __init__(self, coin, ip, port, method, params=None, protocol='tcp'):
+    def __init__(self, coin, url, port, method, params=None, protocol='tcp'):
         threading.Thread.__init__(self)
         self.coin = coin
-        self.ip = ip
+        self.url = url
         self.port = port
         self.method = method
         self.params = params
         self.protocol = protocol
+
     def run(self):
         if self.protocol == "ssl":
-            thread_electrum_ssl(self.coin, self.ip, self.port, self.method, self.params)
+            thread_electrum_ssl(self.coin, self.url, self.port, self.method, self.params)
         elif self.protocol == "tcp":
-            thread_electrum(self.coin, self.ip, self.port, self.method, self.params)
+            thread_electrum(self.coin, self.url, self.port, self.method, self.params)
         elif self.protocol == "wss":
-            thread_electrum_wss(self.coin, self.ip, self.port, self.method, self.params)
+            thread_electrum_wss(self.coin, self.url, self.port, self.method, self.params)
 
 
-def thread_electrum_wss(coin, ip, port, method, params):
-    resp = get_from_electrum_wss(ip, port, method, params)
-    try:
-        resp_json = json.loads(resp)['result']
-        print(colorize(f"{coin} {ip}:{port} OK!", 'blue'))
+def thread_electrum_wss(coin, url, port, method, params):
+    el = ElectrumServer(coin, url, port, "WSS")
+    resp = el.wss(method, params)
+    el = parse_response(el, resp)
+
+    if el.blockheight > 0:
         if coin not in passed_electrums_wss:
             passed_electrums_wss.update({coin:[]})
-        passed_electrums_wss[coin].append(f"{ip}:{port}")
-
-    except Exception as e:
-        if str(resp).find('{"jsonrpc": "2.0"') > -1:
-            if coin not in passed_electrums_wss:
-                passed_electrums_wss.update({coin:[]})
-            passed_electrums_wss[coin].append(f"{ip}:{port}")
-            print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
-            return
+        passed_electrums_wss[coin].append(f"{url}:{port}")
+        logger.calc(f"[WSS] {coin} {url}:{port} OK! Height: {el.blockheight}")
+    else:
         if coin not in failed_electrums_wss:
             failed_electrums_wss.update({coin:{}})
-        failed_electrums_wss[coin].update({f"{ip}:{port}": f"{resp}"})
-        print(colorize(f"{coin} {ip}:{port} Failed! {e} | {resp}", 'red'))
+        failed_electrums_wss[coin].update({f"{url}:{port}": f"{el.result}"})
+        logger.warning(f"[WSS] {coin} {url}:{port} Failed! {el.result}")
 
 
+def thread_electrum(coin, url, port, method, params):
+    el = ElectrumServer(coin, url, port, "TCP")
+    resp = el.tcp(method, params)
+    el = parse_response(el, resp)
 
-def thread_electrum(coin, ip, port, method, params):
-    resp = get_from_electrum(ip, port, method, params)
-    try:
-        resp_json = json.loads(resp)['result']
-        print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
+    if el.blockheight > 0:
         if coin not in passed_electrums:
             passed_electrums.update({coin:[]})
-        passed_electrums[coin].append(f"{ip}:{port}")
-
-    except Exception as e:
-        if str(resp).find('{"jsonrpc": "2.0"') > -1:
-            if coin not in passed_electrums:
-                passed_electrums.update({coin:[]})
-            passed_electrums[coin].append(f"{ip}:{port}")
-            print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
-            return
+        passed_electrums[coin].append(f"{url}:{port}")
+        logger.calc(f"[TCP] {coin} {url}:{port} OK! Height: {el.blockheight}")
+    else:
         if coin not in failed_electrums:
             failed_electrums.update({coin:{}})
-        failed_electrums[coin].update({f"{ip}:{port}": f"{resp}"})
-        print(colorize(f"{coin} {ip}:{port} Failed! {e} | {resp}", 'red'))
+        failed_electrums[coin].update({f"{url}:{port}": f"{el.result}"})
+        logger.warning(f"[TCP] {coin} {url}:{port} Failed! | {el.result}")
 
 
-def thread_electrum_ssl(coin, ip, port, method, params):
-    resp = get_from_electrum_ssl(ip, port, method, params)
-    try:
-        resp_json = json.loads(resp)['result']
-        print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
+def thread_electrum_ssl(coin, url, port, method, params):
+    el = ElectrumServer(coin, url, port, "SSL")
+    resp = el.ssl(method, params)
+    el = parse_response(el, resp)
+    
+    if el.blockheight > 0:
         if coin not in passed_electrums_ssl:
             passed_electrums_ssl.update({coin:[]})
-        passed_electrums_ssl[coin].append(f"{ip}:{port}")
-
-    except Exception as e:
-        if str(resp).find('{"jsonrpc": "2.0"') > -1:
-            if coin not in passed_electrums_ssl:
-                passed_electrums_ssl.update({coin:[]})
-            passed_electrums_ssl[coin].append(f"{ip}:{port}")
-            print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
-            return
+        passed_electrums_ssl[coin].append(f"{url}:{port}")
+        logger.info(f"[SSL] {coin} {url}:{port} OK! Height: {el.blockheight}")
+    else:
         if coin not in failed_electrums_ssl:
             failed_electrums_ssl.update({coin:{}})
-        failed_electrums_ssl[coin].update({f"{ip}:{port}": f"{resp}"})
-        print(colorize(f"{coin} {ip}:{port} Failed! {e} | {resp}", 'red'))
+        failed_electrums_ssl[coin].update({f"{url}:{port}": f"{el.result}"})
+        logger.warning(f"[SSL] {coin} {url}:{port} Failed! | {el.result}")
+
+
+def parse_response(el_obj, resp):
+    try:
+        # Short form for known error responses
+        low_str = str(resp).lower() 
+        if low_str.find('timeout') > -1 or low_str.find('timed out') > -1:
+            el_obj.result = "Timed out"
+        elif low_str.find('refused') > -1 or low_str.find('connect call failed') > -1:
+            el_obj.result = "Connection refused"
+        elif low_str.find('no route to host') > -1:
+            el_obj.result = "No route to host"
+        elif low_str.find('name or service not known') > -1:
+            el_obj.result = "Name or service not known"
+        elif low_str.find('network is unreachable') > -1:
+            el_obj.result = "Network is unreachable "
+        elif low_str.find('ssl handshake is taking longer than') > -1:
+            el_obj.result = "SSL handshake timed out"
+        elif low_str.find('oserror') > -1:
+            el_obj.result = "OS Error"
+            
+        elif low_str.find('gaierror') > -1:
+            el_obj.result = "Gai Error"
+        elif len(str(resp)) < 3:
+            el_obj.result = "Empty response"
+
+        # Long form for known success responses
+        elif "result" in json.loads(resp):
+            el_obj.result = json.loads(resp)['result']
+        elif "params" in json.loads(resp):
+            el_obj.result = json.loads(resp)['params'][0]
+        else:
+            logger.error(json.loads(resp))
+
+        if "height" in el_obj.result:
+            el_obj.blockheight = int(el_obj.result['height'])
+            el_obj.last_connection = int(time.time())
+        elif "block_height" in el_obj.result:
+            el_obj.blockheight = int(el_obj.result['block_height'])
+            el_obj.last_connection = int(time.time())
+        return el_obj
+    except Exception as e:
+        logger.error(f"[{el_obj.protocol}] Error parsing {el_obj.coin} {el_obj.url} {el_obj.port} | Response: [{e}] {resp}")
 
 
 def scan_electrums(electrum_dict):
     thread_list = []
-    wss_list = []
-    ssl_list = []
-    non_ssl_list = []
+    protocol_lists = {
+        "tcp": [],
+        "ssl": [],
+        "wss": []
+    }
 
     for coin in electrum_dict:
         for electrum in electrum_dict[coin]:
-            if "ws_url" in electrum:
-                url, port = electrum["ws_url"].split(":")
-                wss_list.append(coin)
-                thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "wss"))
+                if "ws_url" in electrum:
+                    url, port = electrum["ws_url"].split(":")
+                    protocol_lists['wss'].append(coin)
                 
-            if 'url' in electrum:
-                url, port = electrum["url"].split(":")
-                if "protocol" in electrum:
-                    if electrum["protocol"] == "SSL":
-                        ssl_list.append(coin)
-                        thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "ssl"))
-                        continue
-                non_ssl_list.append(coin)
-                thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "tcp"))
+                    thread_list.append(
+                        scan_thread(
+                            coin,
+                            url,
+                            port,
+                            "blockchain.headers.subscribe",
+                            [],
+                            "wss"
+                        )
+                    )
+                if 'url' in electrum:
+                    url, port = electrum["url"].split(":")
+                    if "protocol" in electrum:
+                        protocol_lists[electrum["protocol"].lower()].append(coin)
+                        thread_list.append(
+                            scan_thread(
+                                coin,
+                                url,
+                                port,
+                                "blockchain.headers.subscribe",
+                                [],
+                                electrum["protocol"].lower()
+                            )
+                        )
+                elif "ws_url" not in electrum:
+                    protocol_lists['tcp'].append(coin)
+                    thread_list.append(
+                        scan_thread(
+                            coin,
+                            url,
+                            port,
+                            "blockchain.headers.subscribe",
+                            [],
+                            "tcp"
+                        )
+                    )
 
+        
     for thread in thread_list:
         thread.start()
         time.sleep(0.1)
-    return set(ssl_list), set(non_ssl_list), set(wss_list)
+    return protocol_lists
 
 
 def get_repo_electrums():
@@ -229,6 +386,10 @@ def get_repo_electrums():
             print(f"{coin} electrums failed to parse, exiting.")
             sys.exit(1)
     return repo_electrums
+
+
+
+
 
 
 def get_existing_report():
@@ -252,8 +413,12 @@ def get_electrums_report():
     current_time = int(time.time())
     existing_report = get_existing_report()
     electrum_dict = get_repo_electrums()
-    electrum_coins_ssl, electrum_coins, electrum_coins_wss = scan_electrums(electrum_dict)
+    protocol_lists = scan_electrums(electrum_dict)
+    electrum_coins_ssl = set(protocol_lists['ssl'])
+    electrum_coins = set(protocol_lists['tcp'])
+    electrum_coins_wss = set(protocol_lists['wss'])
 
+    num_electrums = len(electrum_coins) + len(electrum_coins_ssl) + len(electrum_coins_wss)
     i = 0
     while True:
         electrums_set = set(list(passed_electrums.keys()) + list(failed_electrums.keys())) - set(ignore_list)
@@ -262,16 +427,18 @@ def get_electrums_report():
         electrums_pct = round(len(electrums_set) / len(electrum_coins) * 100, 2)
         electrums_ssl_pct = round(len(electrums_ssl_set) / len(electrum_coins_ssl) * 100, 2)
         electrums_wss_pct = round(len(electrums_wss_set) / len(electrum_coins_wss) * 100, 2)
-        print(f"Scan progress: {electrums_pct}% electrums,  {electrums_ssl_pct}% electrums_ssl,  {electrums_wss_pct}% electrums_wss ")
+        logger.query(f"TCP scan progress: {electrums_pct}% electrums ({len(electrums_set)}/{len(electrum_coins)})")
+        logger.query(f"SSL scan progress: {electrums_ssl_pct}% electrums_ssl ({len(electrums_ssl_set)}/{len(electrum_coins_ssl)})")
+        logger.query(f"WSS scan progress: {electrums_wss_pct}% electrums_wss ({len(electrums_wss_set)}/{len(electrum_coins_wss)})")
         if electrums_set == electrum_coins:
             if electrums_ssl_set == electrum_coins_ssl:
                 if electrums_wss_set == electrum_coins_wss:
                     break
-        if i > 10:
+        if i > (num_electrums * 0.1 + 90):
             print("Loop expired incomplete after 60 iterations.")
             break
         i += 1
-        time.sleep(1)
+        time.sleep(3)
 
     results = {}
 

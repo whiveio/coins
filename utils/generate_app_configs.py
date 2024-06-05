@@ -48,6 +48,11 @@ electrum_coins = [
     for f in os.listdir(f"{repo_path}/electrums")
     if os.path.isfile(f"{repo_path}/electrums/{f}")
 ]
+tendermint_coins = [
+    f
+    for f in os.listdir(f"{repo_path}/tendermint")
+    if os.path.isfile(f"{repo_path}/tendermint/{f}")
+]
 ethereum_coins = [
     f
     for f in os.listdir(f"{repo_path}/ethereum")
@@ -154,7 +159,8 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
-            "tIRIS": "TENDERMINT",
+            "IRISTEST": "TENDERMINT",
+            "NUCLEUSTEST": "TENDERMINT",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq",
         }
@@ -370,14 +376,13 @@ class CoinConfig:
             return token_type
 
         if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
-            if self.ticker.find("_ATOM") > -1:
-                return "ATOM"
-            elif self.ticker.find("_IRIS") > -1:
-                if self.data[self.ticker]["is_testnet"]:
-                    return "tIRIS"
-                return "IRIS"
-            elif self.ticker.find("_OSMO") > -1:
-                return "OSMO"
+            for i in ["IRISTEST", "NUCLEUSTEST"]:
+                if self.ticker.find(i) > -1:
+                    self.is_testnet = True
+                    return i
+            for i in ["IBC_IRIS", "IBC_ATOM", "IBC_OSMO"]:
+                if self.ticker.find(i) > -1:
+                    return i.replace("IBC_", "")
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
@@ -446,11 +451,14 @@ class CoinConfig:
             self.data[self.ticker].update({"bchd_urls": bchd_urls[self.ticker]})
 
     def get_swap_contracts(self):
-        # TODO: update swap contracts to post-IRIS once Artem greenlights.
         contract_data = None
 
         if self.ticker in ethereum_coins:
             with open(f"{repo_path}/ethereum/{self.ticker}", "r") as f:
+                contract_data = json.load(f)
+
+        elif self.data[self.ticker]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]:
+            with open(f"{repo_path}/tendermint/{self.parent_coin}", "r") as f:
                 contract_data = json.load(f)
 
         elif self.ticker not in electrum_coins:
