@@ -38302,7 +38302,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50004",
+                "url": "electrum4.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -38314,7 +38314,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50004",
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
