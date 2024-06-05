@@ -354,18 +354,18 @@ def scan_electrums(electrum_dict):
                                 electrum["protocol"].lower()
                             )
                         )
-                elif "ws_url" not in electrum:
-                    protocol_lists['tcp'].append(coin)
-                    thread_list.append(
-                        scan_thread(
-                            coin,
-                            url,
-                            port,
-                            "blockchain.headers.subscribe",
-                            [],
-                            "tcp"
+                    else:
+                        protocol_lists['tcp'].append(coin)
+                        thread_list.append(
+                            scan_thread(
+                                coin,
+                                url,
+                                port,
+                                "blockchain.headers.subscribe",
+                                [],
+                                "tcp"
+                            )
                         )
-                    )
 
         
     for thread in thread_list:
