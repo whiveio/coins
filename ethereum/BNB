@@ -10,6 +10,10 @@
         },
         {
             "url": "https://bsc3.cipig.net:18655"
+        },
+        {
+            "url": "https://block-proxy.komodo.earth/rpc/bnb",
+            "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
         }
     ]
 }
