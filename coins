@@ -3581,7 +3581,13 @@
         "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 50000,
+        "erc20_payment": 90000,
+        "erc20_receiver_spend": 65000,
+        "erc20_sender_refund": 65000
+    }
   },
   {
     "coin": "DASH",
@@ -12182,7 +12188,13 @@
         "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 120000,
+        "erc20_receiver_spend": 65000,
+        "erc20_sender_refund": 65000
+    }
   },
   {
     "coin": "USDC-PLG20_OLD",
