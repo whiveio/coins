@@ -12337,9 +12337,9 @@
     "derivation_path": "m/44'/966'",
     "gas_limit": {
         "eth_send_erc20": 45000,
-        "erc20_payment": 85000,
-        "erc20_receiver_spend": 60000,
-        "erc20_sender_refund": 60000
+        "erc20_payment": 90000,
+        "erc20_receiver_spend": 65000,
+        "erc20_sender_refund": 65000
     }
   },
   {
