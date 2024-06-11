@@ -11,6 +11,10 @@
     },
     {
       "url": "https://fantom-pokt.nodies.app"
+    },
+    {
+        "url": "https://block-proxy.komodo.earth/rpc/ftm",
+        "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
     }
   ]
 }

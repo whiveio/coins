@@ -4,7 +4,8 @@
       "url": "https://cosmos.komodo.earth/"
     },
     {
-      "url": "https://cosmos.blockpi.network/rpc/v1/public"
-    }    
+      "url": "https://block-proxy.komodo.earth/rpc/atom/",
+      "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
+    }
   ]
 }

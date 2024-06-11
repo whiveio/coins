@@ -10,7 +10,8 @@
       "url": "https://api.avax.network/ext/bc/C/rpc"
     },
     {
-      "url": "https://avalanche.blockpi.network/v1/rpc/public"
+      "url": "https://block-proxy.komodo.earth/rpc/avax",
+      "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
     }
   ]
 }
