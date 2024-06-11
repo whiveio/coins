@@ -4658,7 +4658,13 @@
         "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 90000,
+        "erc20_payment": 150000,
+        "erc20_receiver_spend": 120000,
+        "erc20_sender_refund": 120000
+    }
   },
   {
     "coin": "EUROE-ERC20",
