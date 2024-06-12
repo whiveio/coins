@@ -38,7 +38,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -82,7 +83,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -327,7 +329,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -374,7 +377,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -421,7 +425,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -577,6 +582,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -617,7 +626,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -708,7 +717,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -762,7 +772,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -964,7 +974,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -1058,6 +1069,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -1067,7 +1084,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1173,7 +1191,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1432,7 +1451,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1587,6 +1607,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -1630,7 +1654,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1782,7 +1807,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -2033,7 +2059,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -2222,6 +2249,10 @@
         "nodes": [
             {
                 "url": "https://api.avax-test.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avaxt",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avaxt/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -2262,7 +2293,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -2417,7 +2449,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -2996,7 +3029,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -3197,6 +3231,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -3240,7 +3278,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -3287,7 +3326,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -3484,7 +3524,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -3896,7 +3937,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -3972,15 +4014,6 @@
         },
         "electrum": [
             {
-                "url": "bbk-ex-three.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -3990,7 +4023,16 @@
                 ]
             },
             {
-                "url": "bbk-ex-three.ewmci.online:50001",
+                "url": "bbk-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-one.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -4088,7 +4130,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -4241,7 +4284,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -4786,6 +4829,10 @@
         "nodes": [
             {
                 "url": "https://data-seed-prebsc-1-s2.binance.org:8545"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnbt",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnbt/websocket"
             }
         ],
         "token_address_url": "tokentxns?a=",
@@ -4941,7 +4988,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -5219,7 +5267,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -5266,7 +5315,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -5314,7 +5364,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -5551,6 +5602,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -5603,15 +5660,6 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
-            {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "TCP"
-            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -6030,7 +6078,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -6227,7 +6276,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -6271,7 +6321,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -6469,7 +6520,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -6576,7 +6628,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -6895,7 +6948,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -6986,7 +7040,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -7092,7 +7147,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -7587,7 +7643,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -7737,7 +7794,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -7934,7 +7992,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8133,7 +8192,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -8283,7 +8343,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -8468,7 +8529,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8513,6 +8575,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8591,6 +8657,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8600,7 +8672,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -8930,7 +9003,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -9027,6 +9101,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -9085,6 +9165,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -9125,7 +9209,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -9207,6 +9291,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9216,7 +9306,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -9518,7 +9609,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -9565,7 +9657,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -10756,7 +10849,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -11263,8 +11356,7 @@
                 ]
             },
             {
-                "url": "electrum3.cipig.net:20062",
-                "protocol": "SSL",
+                "url": "electrum1.cipig.net:10062",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -11272,7 +11364,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -11424,7 +11517,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -11665,7 +11759,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -11793,6 +11888,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -11834,7 +11933,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -11918,6 +12017,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -11927,7 +12032,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12025,6 +12131,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 90000,
+            "erc20_payment": 150000,
+            "erc20_receiver_spend": 120000,
+            "erc20_sender_refund": 120000
+        },
         "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12034,7 +12146,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12141,7 +12254,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12253,7 +12367,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12553,7 +12668,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12703,7 +12819,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -13436,6 +13552,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -13699,7 +13819,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -13746,7 +13867,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -13835,6 +13957,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -14044,7 +14170,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14400,6 +14527,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14409,7 +14542,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14542,6 +14676,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x714DB550b574b3E927af3D93E26127D15721D4C2",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14551,7 +14691,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14589,6 +14730,12 @@
             }
         },
         "derivation_path": "m/44'/9000'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14598,7 +14745,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -14705,7 +14853,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14743,6 +14892,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xE5417Af564e4bFDA1c483642db72007871397896",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14752,7 +14907,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14794,15 +14950,6 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "electrum.maxpuig.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14813,11 +14960,11 @@
                 ]
             },
             {
-                "url": "electrum.maxpuig.com:50001",
+                "url": "electrum.niftybakes.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "mecs#4770"
+                        "discord": "405566674448810005"
                     }
                 ]
             }
@@ -15048,7 +15195,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -15191,6 +15339,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -15200,7 +15354,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -15477,7 +15632,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -15583,7 +15739,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -15624,7 +15781,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -15789,7 +15946,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -15880,7 +16037,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16034,7 +16192,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16105,24 +16264,11 @@
                 ]
             },
             {
-                "url": "il9p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "il8p-ex-five.ewmci.online:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -16216,7 +16362,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16263,7 +16410,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16675,7 +16823,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16769,7 +16918,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16866,7 +17016,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16914,7 +17065,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16962,7 +17114,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -17114,7 +17267,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17162,7 +17316,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17210,7 +17365,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -17361,7 +17517,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17516,7 +17673,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17564,7 +17722,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17612,7 +17771,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17660,7 +17820,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17708,7 +17869,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17756,7 +17918,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17804,7 +17967,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17852,7 +18016,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17900,7 +18065,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -17945,7 +18111,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18051,7 +18218,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18098,7 +18266,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18146,7 +18315,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18194,7 +18364,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18242,7 +18413,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18824,7 +18996,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18871,7 +19044,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -18992,75 +19166,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "LABS": {
-        "coin": "LABS",
-        "type": "Smart Chain",
-        "name": "KMD Labs",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://labs.explorer.dexstats.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "LABS",
-        "fname": "KMD Labs",
-        "rpcport": 40265,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "LBC": {
@@ -19203,26 +19308,8 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
-                "url": "lcc-ex-one.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
-            },
-            {
-                "url": "lcc-ex-one.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -19267,26 +19354,8 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
-                "url": "lcc-ex-one.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
-            },
-            {
-                "url": "lcc-ex-one.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -19389,7 +19458,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19499,7 +19569,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19604,7 +19675,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -19696,6 +19768,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -19736,7 +19812,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -19827,7 +19903,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -20034,98 +20111,11 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "WCN": {
-        "coin": "WCN",
-        "type": "UTXO",
-        "name": "Widecoin",
-        "coinpaprika_id": "wcn-widecoin",
-        "coingecko_id": "widecoin",
-        "livecoinwatch_id": "WCN",
-        "explorer_url": "https://explorer.widecoin.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Widecoin",
-        "rpcport": 8552,
-        "pubtype": 73,
-        "p2shtype": 33,
-        "wiftype": 153,
-        "txfee": 100000,
-        "segwit": true,
-        "bech32_hrp": "wc",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/613'",
-        "electrum": [
-            {
-                "url": "electrumx.widecoin.org:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.widecoin.org:50001",
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "WCN-segwit": {
-        "coin": "WCN-segwit",
-        "type": "UTXO",
-        "name": "Widecoin",
-        "coinpaprika_id": "wcn-widecoin",
-        "coingecko_id": "widecoin",
-        "livecoinwatch_id": "WCN",
-        "explorer_url": "https://explorer.widecoin.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Widecoin",
-        "rpcport": 8552,
-        "pubtype": 73,
-        "p2shtype": 33,
-        "wiftype": 153,
-        "txfee": 100000,
-        "segwit": true,
-        "bech32_hrp": "wc",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "WCN",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/613'",
-        "electrum": [
-            {
-                "url": "electrumx.widecoin.org:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.widecoin.org:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -20750,7 +20740,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -20904,7 +20895,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -20986,7 +20978,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -21143,7 +21136,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -21493,8 +21486,7 @@
                 ]
             },
             {
-                "url": "electrum3.cipig.net:20069",
-                "protocol": "SSL",
+                "url": "electrum1.cipig.net:10069",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -21502,7 +21494,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -21701,7 +21694,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -21900,7 +21894,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -22009,7 +22004,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -22145,7 +22141,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -22739,6 +22736,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22748,7 +22751,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -22863,11 +22867,6 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -22878,6 +22877,15 @@
             },
             {
                 "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -22929,11 +22937,6 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -22944,6 +22947,15 @@
             },
             {
                 "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -23260,7 +23272,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -23466,7 +23479,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -23577,7 +23591,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -23863,7 +23878,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24012,6 +24028,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -24021,7 +24043,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24302,7 +24325,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24412,7 +24436,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24570,7 +24595,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24723,7 +24749,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24889,7 +24916,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -25089,7 +25117,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -25867,6 +25896,10 @@
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -25971,7 +26004,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -26139,7 +26172,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -26569,7 +26603,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -26666,6 +26701,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x61299774020dA444Af134c82fa83E3810b309991",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -26675,7 +26716,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -27185,7 +27227,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -27328,7 +27371,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27484,6 +27528,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27571,7 +27619,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -27666,7 +27715,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -27841,7 +27891,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27933,6 +27984,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27976,7 +28031,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -28082,7 +28138,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -28252,7 +28309,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -28408,6 +28466,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -28539,7 +28601,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -28889,7 +28952,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -28936,7 +29000,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -28981,6 +29046,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -29341,6 +29410,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29350,7 +29425,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -29626,7 +29702,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30111,6 +30188,12 @@
             }
         },
         "derivation_path": "m/44'/9000'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30120,7 +30203,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -30204,6 +30288,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30213,7 +30303,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30478,7 +30569,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30523,6 +30615,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30563,7 +30659,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -30654,7 +30750,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30812,7 +30909,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30901,7 +30999,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31004,7 +31103,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -31051,7 +31151,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31202,7 +31303,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -31293,7 +31394,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -31337,12 +31439,12 @@
         },
         "electrum": [
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -31392,7 +31494,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31436,7 +31539,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31533,6 +31637,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -31590,6 +31700,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31630,7 +31744,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -31756,6 +31870,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -31765,7 +31885,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -31812,7 +31933,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -32011,6 +32133,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -32051,7 +32177,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://http-mainnet.hecochain.com"
+                "url": "http://http-mainnet.hecochain.com"
             },
             {
                 "url": "https://http-mainnet-node.huobichain.com"
@@ -32133,6 +32259,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32142,7 +32274,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -32220,6 +32353,12 @@
             }
         },
         "derivation_path": "m/44'/9000'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32229,7 +32368,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -32273,7 +32413,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -32307,6 +32448,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x55d398326f99059fF775485246999027B3197955",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -32783,7 +32930,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -33031,69 +33179,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "GRMS": {
-        "coin": "GRMS",
-        "type": "Smart Chain",
-        "name": "GRMS",
-        "coinpaprika_id": "grms-grms",
-        "coingecko_id": "",
-        "livecoinwatch_id": "GRMS",
-        "explorer_url": "https://explorer.grms.pw/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "GRMS",
-        "fname": "GRMS",
-        "rpcport": 21687,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "VPRM": {
         "coin": "VPRM",
         "type": "Smart Chain",
@@ -33186,15 +33271,6 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.javerity.com:5885",
-                "contact": [
-                    {
-                        "discord": "cruelnovo#4936"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33243,15 +33319,6 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.javerity.com:5885",
-                "contact": [
-                    {
-                        "discord": "cruelnovo#4936"
-                    }
-                ],
                 "protocol": "TCP"
             }
         ],
@@ -33445,6 +33512,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33454,7 +33527,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -33619,7 +33693,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -33712,6 +33787,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -33755,7 +33834,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -34076,6 +34156,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x2c826035c1C36986117A0e949bD6ad4baB54afE2",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34085,7 +34171,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -34626,7 +34713,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -34988,7 +35076,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -35144,6 +35233,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -35231,7 +35324,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -35690,7 +35784,8 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -35798,7 +35893,8 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -38689,7 +38785,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38701,7 +38797,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38849,7 +38945,8 @@
                 "url": "https://cosmos.komodo.earth/"
             },
             {
-                "url": "https://cosmos.blockpi.network/rpc/v1/public"
+                "url": "https://block-proxy.komodo.earth/rpc/atom/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -39283,29 +39380,11 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.kiirocoin.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1155906841625239684"
                     }
                 ]
             }
