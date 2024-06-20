@@ -6472,6 +6472,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "JASMY-ERC20",
+    "name": "jasmy_erc20",
+    "fname": "JasmyCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "JASMY-BEP20",
+    "name": "jasmy_bep20",
+    "fname": "JasmyCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "JDB-BEP20",
     "name": "jdb_bep20",
     "fname": "Jeet Detector Bot",

@@ -292,6 +292,8 @@
     "IOTX-BEP20": "iotex",
     "IOTX-PLG20": "iotex",
     "IRIS": "iris-network",
+    "JASMY-BEP20": "jasmycoin",
+    "JASMY-ERC20": "jasmycoin",
     "JBRL-BEP20": "jarvis-brazilian-real",
     "JBRL-PLG20": "jarvis-brazilian-real",
     "JCHF-ERC20": "jarvis-synthetic-swiss-franc",
