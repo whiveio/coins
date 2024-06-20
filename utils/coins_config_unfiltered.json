@@ -838,9 +838,8 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
@@ -856,9 +855,8 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
@@ -4660,6 +4658,15 @@
         },
         "electrum": [
             {
+                "url": "bbk-ex-three.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "bbk-ex-two.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -4669,8 +4676,8 @@
                 ]
             },
             {
-                "url": "bbk-one.ewm-cx.net:50001",
-                "protocol": "TCP",
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -4680,6 +4687,15 @@
             {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-ex-three.ewmci.online:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -5415,6 +5431,10 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum3.blocx.live:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.blocx.live:50002",
                 "protocol": "SSL"
             },
@@ -5423,11 +5443,19 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum3.blocx.live:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum1.blocx.live:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum2.blocx.live:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.blocx.live:50004",
                 "protocol": "WSS"
             }
         ],
@@ -6715,26 +6743,7 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/177'",
-        "electrum": [
-            {
-                "url": "electrum2.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.btcz.rocks:50004",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "WSS"
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "BTCZ-BEP20": {
@@ -12405,16 +12414,6 @@
                 ]
             },
             {
-                "url": "electrumx2.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.diminutivecoin.com:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -12433,16 +12432,6 @@
                     },
                     {
                         "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
                     }
                 ]
             }
@@ -14193,13 +14182,13 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://geth-de.etc-network.info"
+                "url": "https://etc.etcdesktop.com"
             },
             {
                 "url": "https://geth-at.etc-network.info"
             },
             {
-                "url": "https://besu-de.etc-network.info"
+                "url": "https://etc.rivet.link"
             },
             {
                 "url": "https://besu-at.etc-network.info"
@@ -20345,6 +20334,28 @@
                 ]
             },
             {
+                "url": "il9p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
                 "url": "il8p-ex-five.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -20355,6 +20366,28 @@
             },
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -21034,6 +21067,128 @@
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "JASMY-ERC20": {
+        "coin": "JASMY-ERC20",
+        "type": "ERC-20",
+        "name": "JasmyCoin",
+        "coinpaprika_id": "jasmy-jasmycoin",
+        "coingecko_id": "jasmycoin",
+        "livecoinwatch_id": "JASMY",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "JasmyCoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/eth",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
+                "contact": {
+                    "email": "smk@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "JASMY-BEP20": {
+        "coin": "JASMY-BEP20",
+        "type": "BEP-20",
+        "name": "JasmyCoin",
+        "coinpaprika_id": "jasmy-jasmycoin",
+        "coingecko_id": "jasmycoin",
+        "livecoinwatch_id": "JASMY",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "JasmyCoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnb",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "JDB-BEP20": {
@@ -24151,6 +24306,33 @@
             {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -24197,6 +24379,33 @@
             {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33648,53 +33857,7 @@
             "github": "https://github.com/RTBCoin",
             "homepage": "https://ridethebullcoin.com"
         },
-        "electrum": [
-            {
-                "url": "electrumx2.ridethebullcoin.com:10002",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.ridethebullcoin.com:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.ridethebullcoin.com:20052",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "RTM": {
@@ -35235,17 +35398,7 @@
                 "disable_cert_verification": false
             },
             {
-                "url": "sumpos2.electrum-sum.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
-            {
                 "url": "sumpos.electrum-sum.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": false
-            },
-            {
-                "url": "sumpos2.electrum-sum.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -41339,6 +41492,24 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -41388,6 +41559,24 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -44277,35 +44466,8 @@
                 "protocol": "TCP"
             },
             {
-                "url": "zet-ex-three.ewmci.online:50011",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50013",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
@@ -49130,80 +49292,7 @@
             "github": "https://github.com/diabaths/Crionic-Coin",
             "homepage": "https://coin.crionic.org"
         },
-        "electrum": [
-            {
-                "url": "coin.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "explorer.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "coin.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "EVR": {
@@ -49388,8 +49477,35 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
@@ -49505,15 +49621,6 @@
                 ]
             },
             {
-                "url": "meowcoinelectrumcoms.xyz:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
                 "url": "meowelectrum.xyz:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -49524,15 +49631,6 @@
             },
             {
                 "url": "meowcoinelectrum.xyz:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "meowcoinelectrumcoms.xyz:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
