@@ -826,9 +826,8 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
@@ -4255,6 +4254,15 @@
         },
         "electrum": [
             {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -4811,6 +4819,10 @@
             },
             {
                 "url": "electrum2.blocx.live:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.blocx.live:50002",
                 "protocol": "SSL"
             }
         ],
@@ -10566,16 +10578,6 @@
                         "discord": "[MadCatMining]#0677"
                     }
                 ]
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -11929,13 +11931,13 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://geth-de.etc-network.info"
+                "url": "https://etc.etcdesktop.com"
             },
             {
                 "url": "https://geth-at.etc-network.info"
             },
             {
-                "url": "https://besu-de.etc-network.info"
+                "url": "https://etc.rivet.link"
             },
             {
                 "url": "https://besu-at.etc-network.info"
@@ -16842,6 +16844,28 @@
                         "github": "WikiMin3R"
                     }
                 ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -17466,6 +17490,128 @@
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "JASMY-ERC20": {
+        "coin": "JASMY-ERC20",
+        "type": "ERC-20",
+        "name": "JasmyCoin",
+        "coinpaprika_id": "jasmy-jasmycoin",
+        "coingecko_id": "jasmycoin",
+        "livecoinwatch_id": "JASMY",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "JasmyCoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/eth",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
+                "contact": {
+                    "email": "smk@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "JASMY-BEP20": {
+        "coin": "JASMY-BEP20",
+        "type": "BEP-20",
+        "name": "JasmyCoin",
+        "coinpaprika_id": "jasmy-jasmycoin",
+        "coingecko_id": "jasmycoin",
+        "livecoinwatch_id": "JASMY",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "JasmyCoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnb",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "JDB-BEP20": {
@@ -20098,6 +20244,104 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "LCC-segwit": {
+        "coin": "LCC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "LCC",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
@@ -27823,58 +28067,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "RTB": {
-        "coin": "RTB",
-        "type": "Smart Chain",
-        "name": "RideTheBullCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "RTB",
-        "explorer_url": "https://explorer1.ridethebullcoin.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "RTB",
-        "fname": "RideTheBullCoin",
-        "rpcport": 29403,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "links": {
-            "github": "https://github.com/RTBCoin",
-            "homepage": "https://ridethebullcoin.com"
-        },
-        "electrum": [
-            {
-                "url": "electrumx2.ridethebullcoin.com:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "RTM-BEP20": {
         "coin": "RTM-BEP20",
         "type": "BEP-20",
@@ -29216,11 +29408,6 @@
         "electrum": [
             {
                 "url": "sumpos.electrum-sum.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
-            {
-                "url": "sumpos2.electrum-sum.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
             }
@@ -36848,15 +37035,6 @@
         },
         "electrum": [
             {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             }
@@ -40545,71 +40723,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CRNC": {
-        "coin": "CRNC",
-        "type": "UTXO",
-        "name": "CrionicCoin",
-        "coinpaprika_id": "crnc-crionic",
-        "coingecko_id": "crionic",
-        "livecoinwatch_id": "CRNC",
-        "explorer_url": "https://explorer.crionic.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Crioniccoin Signed Message:\n",
-        "fname": "CrionicCoin",
-        "rpcport": 4466,
-        "pubtype": 28,
-        "p2shtype": 45,
-        "wiftype": 176,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "crnc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 20,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "links": {
-            "github": "https://github.com/diabaths/Crionic-Coin",
-            "homepage": "https://coin.crionic.org"
-        },
-        "electrum": [
-            {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
@@ -40705,6 +40818,15 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
@@ -40806,15 +40928,6 @@
         "electrum": [
             {
                 "url": "meowcoinelectrum.xyz:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "meowcoinelectrumcoms.xyz:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
