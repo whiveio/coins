@@ -3,13 +3,16 @@
     "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
     "rpc_nodes": [
         {
-            "url": "https://bsc1.cipig.net:18655"
+            "url": "https://bsc1.cipig.net:18655",
+            "ws_url": "wss://bsc1.cipig.net:38655"
         },
         {
-            "url": "https://bsc2.cipig.net:18655"
+            "url": "https://bsc2.cipig.net:18655",
+            "ws_url": "wss://bsc2.cipig.net:38655"
         },
         {
-            "url": "https://bsc3.cipig.net:18655"
+            "url": "https://bsc3.cipig.net:18655",
+            "ws_url": "wss://bsc3.cipig.net:38655"
         },
         {
             "url": "https://block-proxy.komodo.earth/rpc/bnb",
