@@ -136,13 +136,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -187,13 +190,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -505,13 +511,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -874,13 +883,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -925,13 +937,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -1456,13 +1471,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -1699,13 +1717,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -1854,13 +1875,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -2135,13 +2159,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -2186,13 +2213,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -2336,13 +2366,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -2541,13 +2574,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -2851,13 +2887,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -2977,13 +3016,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -3028,13 +3070,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -3079,13 +3124,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -3301,13 +3349,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -3352,13 +3403,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -3699,13 +3753,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -4307,7 +4364,7 @@
         },
         "electrum": [
             {
-                "url": "bbk-ex-three.ewmci.online:50003",
+                "url": "bbk-ex-two.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -4316,7 +4373,7 @@
                 ]
             },
             {
-                "url": "bbk-ex-two.ewmci.online:50003",
+                "url": "bbk-ex-three.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -4363,13 +4420,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -4538,13 +4598,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -4635,13 +4698,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -4798,13 +4864,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -4960,13 +5029,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -5160,13 +5232,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -5413,13 +5488,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -5965,13 +6043,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -5981,6 +6062,60 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "BTC"
+    },
+    "BTCZ": {
+        "coin": "BTCZ",
+        "type": "UTXO",
+        "name": "BitcoinZ",
+        "coinpaprika_id": "btcz-bitcoinz",
+        "coingecko_id": "bitcoinz",
+        "livecoinwatch_id": "BTCZ",
+        "explorer_url": "https://explorer.btcz.rocks/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "BitcoinZ Signed Message:\n",
+        "fname": "BitcoinZ",
+        "rpcport": 1979,
+        "taddr": 28,
+        "pubtype": 184,
+        "p2shtype": 189,
+        "wiftype": 128,
+        "txfee": 10000,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/177'",
+        "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "BTCZ-BEP20": {
         "coin": "BTCZ-BEP20",
@@ -6018,13 +6153,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -6229,13 +6367,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -6281,13 +6422,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -6562,13 +6706,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -6829,13 +6976,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -7056,13 +7206,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -7108,13 +7261,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -7384,13 +7540,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -7685,13 +7844,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -7781,13 +7943,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -7833,13 +7998,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -8293,13 +8461,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -8393,13 +8564,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -9133,13 +9307,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -9184,13 +9361,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -9564,13 +9744,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -10472,13 +10655,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -10680,6 +10866,16 @@
                         "discord": "[MadCatMining]#0677"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -10719,13 +10915,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -10849,13 +11048,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11091,13 +11293,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11185,13 +11390,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11236,13 +11444,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11287,13 +11498,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11485,13 +11699,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11606,13 +11823,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -11962,13 +12182,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -12061,13 +12284,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -12266,13 +12492,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -12939,13 +13168,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13131,13 +13363,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13234,13 +13469,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13464,13 +13702,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13636,13 +13877,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13687,13 +13931,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13738,13 +13985,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -13860,13 +14110,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -14150,13 +14403,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -14278,13 +14534,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -14667,13 +14926,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -14841,13 +15103,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -14893,13 +15158,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -15188,13 +15456,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -15240,13 +15511,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -15659,13 +15933,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -16015,13 +16292,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -16850,13 +17130,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17041,13 +17324,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17267,13 +17553,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17388,13 +17677,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17508,13 +17800,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17559,13 +17854,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17733,13 +18031,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17784,13 +18085,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -17889,13 +18193,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -18097,13 +18404,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -18375,13 +18685,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -18549,13 +18862,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -19532,13 +19848,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -19911,13 +20230,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -19963,13 +20285,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -20260,13 +20585,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -20879,13 +21207,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -21123,13 +21454,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -21250,13 +21584,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -21498,13 +21835,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -21550,13 +21890,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -21884,13 +22227,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -22032,13 +22378,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -22293,13 +22642,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -22581,13 +22933,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -22835,13 +23190,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -22957,13 +23315,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -23057,13 +23418,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -23402,13 +23766,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -23678,13 +24045,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -23729,13 +24099,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -23781,13 +24154,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -24144,13 +24520,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -24399,13 +24778,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -24450,13 +24832,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -24796,13 +25181,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -24921,13 +25309,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -25068,13 +25459,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -25803,13 +26197,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -26149,13 +26546,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -26606,13 +27006,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -27111,15 +27514,15 @@
         },
         "electrum": [
             {
+                "url": "electrum03.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum01.reddcoin.com:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum02.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -27589,13 +27992,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -28221,13 +28627,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -28420,13 +28829,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -28524,13 +28936,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -28576,13 +28991,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -28676,13 +29094,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -28951,13 +29372,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -29242,13 +29666,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -29686,13 +30113,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -30004,13 +30434,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -30055,13 +30488,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -30290,13 +30726,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -30725,13 +31164,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31165,13 +31607,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31217,13 +31662,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31385,13 +31833,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31475,13 +31926,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31527,13 +31981,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31634,13 +32091,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31815,13 +32275,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -31867,13 +32330,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -32234,13 +32700,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -32747,13 +33216,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -33164,13 +33636,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -33509,13 +33984,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -34026,13 +34504,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -34354,13 +34835,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -34708,13 +35192,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -34991,13 +35478,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -35365,13 +35855,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -35591,13 +36084,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -35711,13 +36207,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -35891,13 +36390,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -36155,13 +36657,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -36405,13 +36910,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -36506,13 +37014,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -36636,13 +37147,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -36736,13 +37250,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -37010,13 +37527,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -37291,13 +37811,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -37381,13 +37904,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -37760,13 +38286,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -39871,13 +40400,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -39993,13 +40525,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -40122,13 +40657,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -40323,13 +40861,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -40489,13 +41030,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -40624,13 +41168,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
@@ -40793,6 +41340,71 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRNC": {
+        "coin": "CRNC",
+        "type": "UTXO",
+        "name": "CrionicCoin",
+        "coinpaprika_id": "crnc-crionic",
+        "coingecko_id": "crionic",
+        "livecoinwatch_id": "CRNC",
+        "explorer_url": "https://explorer.crionic.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Crioniccoin Signed Message:\n",
+        "fname": "CrionicCoin",
+        "rpcport": 4466,
+        "pubtype": 28,
+        "p2shtype": 45,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "crnc",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 20,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "links": {
+            "github": "https://github.com/diabaths/Crionic-Coin",
+            "homepage": "https://coin.crionic.org"
+        },
+        "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
@@ -40889,7 +41501,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50004",
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -40898,7 +41510,7 @@
                 ]
             },
             {
-                "url": "electrum3.kiirocoin.org:50004",
+                "url": "electrum1.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -40944,13 +41556,16 @@
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
-                "url": "https://bsc1.cipig.net:18655"
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
             },
             {
-                "url": "https://bsc2.cipig.net:18655"
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
             },
             {
-                "url": "https://bsc3.cipig.net:18655"
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/bnb",
