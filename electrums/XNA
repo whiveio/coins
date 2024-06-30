@@ -6,7 +6,7 @@
       { "email": "alarm@neurai.org" },
       { "discord": "456566604809895947" }
     ],
-    "ws_url": "electrumx1.neurai.top:50002"
+    "ws_url": "electrumx-dex-01.neuraiexplorer.com:50002"
   },
   {
     "url": "electrumx2.neurai.top:50001",
@@ -15,7 +15,7 @@
       { "email": "alarm@neurai.org" },
       { "discord": "456566604809895947" }
     ],
-    "ws_url": "electrumx2.neurai.top:50002"
+    "ws_url": "electrumx-dex-02.neuraiexplorer.com:50002"
   },
   {
     "url": "electrumx3.neurai.top:50001",
