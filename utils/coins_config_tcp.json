@@ -781,7 +781,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx-three.artbyte.live:50012",
+                "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             }
         ],
@@ -5472,11 +5472,15 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver02.globalboost.info:50011",
+                "url": "electrumserver01.globalboost.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -26710,24 +26714,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "ric-ex-two.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "ric-ex-two.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -26776,24 +26762,6 @@
                     },
                     {
                         "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "ric-ex-two.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "ric-ex-two.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -31432,6 +31400,11 @@
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33782,15 +33755,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx1.vaporumcoin.us:50001",
-                "contact": [
-                    {
-                        "github": "VaporumCoin"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.vaporumcoin.us:50001",
                 "contact": [
                     {
@@ -34956,7 +34920,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.neurai.top:50001",
+                "url": "electrumx-dex-01.neuraiexplorer.com:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -34968,7 +34932,7 @@
                 ]
             },
             {
-                "url": "electrumx2.neurai.top:50001",
+                "url": "electrumx-dex-02.neuraiexplorer.com:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -35034,11 +34998,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.mainnet.primecoin.org:50011",
+                "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.primecoin.org:50001",
+                "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
             }
         ],
@@ -35421,17 +35385,12 @@
                 ]
             },
             {
-                "url": "electrumx2.vanillacash.info:50011",
+                "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "xvc-ex-seven.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
+                "url": "electrumx2.vanillacash.info:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -39437,8 +39396,8 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
+                "url": "electrum2.runebase.io:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "email": "support@runebase.io"
