@@ -4745,7 +4745,13 @@
         "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "EWT",
@@ -4954,7 +4960,13 @@
         "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "FJC",
@@ -6224,7 +6236,13 @@
         "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "IL8P",
@@ -6507,7 +6525,13 @@
         "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "JDB-BEP20",
@@ -6867,7 +6891,13 @@
         "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "JKRW-PLG20",
@@ -11178,7 +11208,13 @@
         "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "SYN-AVX20",
