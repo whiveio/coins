@@ -3,6 +3,10 @@
     "url": "88.99.26.209:5036"
   },
   {
+    "url": "electrum-verge.cloud:50001",
+    "protocol": "TCP"
+  },
+  {
     "url": "electrumx-verge.cloud:50001",
     "protocol": "TCP"
   },
