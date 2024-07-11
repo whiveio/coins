@@ -1,5 +1,12 @@
 [
     {
+        "url": "xmy-two.ewm-cx.net:50001",
+        "protocol": "TCP",
+        "contact": [
+            { "discord": "475820011634819072" }
+        ]
+    },
+    {
         "url": "lenoir.ecoincore.com:10891",
         "protocol": "TCP"
     },
