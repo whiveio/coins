@@ -7917,6 +7917,63 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CLAM": {
+        "coin": "CLAM",
+        "type": "UTXO",
+        "name": "Clams",
+        "coinpaprika_id": "clam-clams",
+        "coingecko_id": "clams",
+        "livecoinwatch_id": "CLAM",
+        "explorer_url": "https://chainz.cryptoid.info/clam/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Clam Signed Message:\n",
+        "fname": "Clams",
+        "isPoS": 1,
+        "rpcport": 30174,
+        "pubtype": 137,
+        "p2shtype": 13,
+        "wiftype": 133,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/23'",
+        "links": {
+            "github": "https://github.com/nochowderforyou/clams",
+            "homepage": "http://clamclient.com"
+        },
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
         "type": "BEP-20",
@@ -12945,7 +13002,7 @@
                 ]
             },
             {
-                "url": "electrumx02.firo.org:50001",
+                "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -16351,6 +16408,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -34881,15 +34947,15 @@
         },
         "electrum": [
             {
-                "url": "electrumx.gemmer.primecoin.org:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx.primecoin.org:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011",
                 "protocol": "TCP"
             }
         ],
@@ -35447,6 +35513,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "88.99.26.209:5036",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
@@ -36155,6 +36225,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
