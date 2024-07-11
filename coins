@@ -2062,7 +2062,13 @@
         "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "BRZ-AVX20",
@@ -6031,7 +6037,13 @@
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "HOT-ERC20",
@@ -6802,7 +6814,13 @@
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "JGBP-BEP20",
@@ -7042,7 +7060,13 @@
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "JRT-ERC20",
