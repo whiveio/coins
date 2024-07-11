@@ -9533,7 +9533,35 @@
             "github": "https://github.com/nochowderforyou/clams",
             "homepage": "http://clamclient.com"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "CLC": {
@@ -15707,7 +15735,7 @@
                 ]
             },
             {
-                "url": "electrumx02.firo.org:50001",
+                "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -15716,7 +15744,7 @@
                 ]
             },
             {
-                "url": "electrumx03.firo.org:50001",
+                "url": "electrumx02.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -15758,7 +15786,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx02.firo.org:50004"
+                "url": "electrumx03.firo.org:50004"
             },
             {
                 "protocol": "WSS",
@@ -15767,7 +15795,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx03.firo.org:50004"
+                "url": "electrumx02.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -18750,6 +18778,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum26.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum27.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -18883,18 +18923,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum26.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -19124,6 +19152,18 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum26.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum27.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -19257,18 +19297,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum26.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -20485,6 +20513,24 @@
         },
         "electrum": [
             {
+                "url": "il8p-ex-five.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -20525,6 +20571,15 @@
                     },
                     {
                         "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             },
@@ -43252,15 +43307,15 @@
         },
         "electrum": [
             {
-                "url": "electrumx.gemmer.primecoin.org:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx.primecoin.org:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011",
                 "protocol": "TCP"
             }
         ],
@@ -43975,6 +44030,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "88.99.26.209:5036",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
@@ -44882,8 +44941,35 @@
                 "protocol": "TCP"
             },
             {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
