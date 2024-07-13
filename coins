@@ -129,7 +129,13 @@
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "PGX-PLG20",
@@ -2065,9 +2071,9 @@
     "derivation_path": "m/44'/966'",
     "gas_limit": {
         "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 80000,
-        "erc20_sender_refund": 80000
+        "erc20_payment": 120000,
+        "erc20_receiver_spend": 90000,
+        "erc20_sender_refund": 90000
     }
   },
   {
@@ -3179,7 +3185,13 @@
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "CRO-ERC20",
