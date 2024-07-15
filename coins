@@ -2929,7 +2929,7 @@
     "coin": "CHSB-PLG20_OLD",
     "name": "chsb_plg20_old",
     "fname": "SwissBorg",
-    "wallet_only": false,
+    "wallet_only": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
