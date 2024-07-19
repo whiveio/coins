@@ -2938,9 +2938,10 @@
     }
   },
   {
-    "coin": "CHSB-PLG20",
-    "name": "chsb_plg20",
-    "fname": "SwissBorg",
+    "coin": "CHSB-PLG20_OLD",
+    "name": "chsb_plg20_old",
+    "fname": "SwissBorg (OLD)",
+    "wallet_only": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
