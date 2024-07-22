@@ -12261,6 +12261,30 @@
     }
   },
   {
+    "coin": "USDC-ARB20",
+    "name": "usdc_arb20",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "avg_blocktime": 15,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 300000,
+        "erc20_receiver_spend": 250000,
+        "erc20_sender_refund": 250000
+    }
+  },
+  {
     "coin": "USDC-AVX20",
     "name": "usdc_avx20",
     "fname": "USD Coin",
