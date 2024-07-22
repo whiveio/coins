@@ -4541,6 +4541,7 @@
       "type": "ETH"
     },
     "gas_limit": {
+        "eth_send_coins": 100000,
         "eth_payment": 100000,
         "eth_receiver_spend": 200000,
         "eth_sender_refund": 200000
