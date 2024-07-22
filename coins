@@ -8742,6 +8742,49 @@
     }
   },
   {
+    "coin": "MOR-ERC20",
+    "name": "mor_erc20",
+    "fname": "Morpheus",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "MOR-ARB20",
+    "name": "mor_arb20",
+    "fname": "Morpheus",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "MOVR",
     "name": "moonriver",
     "fname": "Moonriver",
