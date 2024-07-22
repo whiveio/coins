@@ -353,6 +353,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -852,6 +858,14 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "aby-ex-four.ewmci.online:50013",
                 "protocol": "WSS",
                 "contact": [
@@ -864,6 +878,14 @@
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -2441,18 +2463,8 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
-                "url": "electrumx.aur.ewmcx.info:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -6275,6 +6287,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -6805,6 +6823,15 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
@@ -6812,6 +6839,15 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
             },
             {
                 "url": "electrum2.btcz.rocks:50004",
@@ -8284,11 +8320,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -8310,11 +8341,6 @@
             },
             {
                 "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -8384,11 +8410,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -8410,11 +8431,6 @@
             },
             {
                 "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -9280,12 +9296,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CHSB-PLG20": {
-        "coin": "CHSB-PLG20",
+    "CHSB-PLG20_OLD": {
+        "coin": "CHSB-PLG20_OLD",
         "type": "Matic",
-        "name": "SwissBorg",
-        "coinpaprika_id": "chsb-swissborg",
-        "coingecko_id": "swissborg",
+        "name": "SwissBorg (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "CHSB",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
@@ -9294,8 +9310,8 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "SwissBorg",
+        "wallet_only": true,
+        "fname": "SwissBorg (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 137,
@@ -9870,6 +9886,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12018,6 +12040,16 @@
             {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -13418,6 +13450,17 @@
                 ]
             },
             {
+                "url": "big-parrot-60.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "big-parrot-60.doi.works:50004"
+            },
+            {
                 "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13581,22 +13624,12 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
-                "url": "electrum1.egulden.org:50002",
+                "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum1.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50004",
+                "url": "lenoir.ecoincore.com:11019",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -15058,6 +15091,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -15642,15 +15681,6 @@
                 ]
             },
             {
-                "url": "electrumx03.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx02.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -15660,7 +15690,7 @@
                 ]
             },
             {
-                "url": "electrumx05.firo.org:50001",
+                "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -15693,7 +15723,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx03.firo.org:50004"
+                "url": "electrumx02.firo.org:50004"
             },
             {
                 "protocol": "WSS",
@@ -15702,7 +15732,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx02.firo.org:50004"
+                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -15737,6 +15767,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -16910,6 +16946,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19711,6 +19753,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -20334,6 +20382,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21242,6 +21296,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -22021,6 +22081,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22305,6 +22371,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22411,6 +22483,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22673,6 +22751,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -24581,6 +24665,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34688,6 +34778,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -36191,6 +36287,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -42849,15 +42951,15 @@
         },
         "electrum": [
             {
+                "url": "electrumx.gemmer.primecoin.org:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx.primecoin.org:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011",
                 "protocol": "TCP"
             }
         ],
@@ -43294,39 +43396,12 @@
                 "protocol": "TCP"
             },
             {
-                "url": "xvc-ex-seven.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.vanillacash.info:50013",
                 "protocol": "WSS"
             },
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -43579,6 +43654,18 @@
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx-verge.cloud:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-verge.cloud:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -48617,6 +48704,18 @@
         },
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -48629,8 +48728,32 @@
                 ]
             },
             {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.runebase.io:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "support@runebase.io"
@@ -48945,7 +49068,7 @@
                 "url": "https://rpc.osmosis.zone/"
             },
             {
-                "url": "https://osmosis-mainnet-rpc.allthatnode.com:26657/"
+                "url": "https://block-proxy.komodo.earth/rpc/osmo/"
             }
         ],
         "explorer_block_url": "block/",
@@ -49379,35 +49502,8 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1155906841625239684"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.kiirocoin.org:50004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
@@ -49622,7 +49718,24 @@
         "derivation_path": "m/44'/1'",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://nucleus-rpc.alpha.komodo.earth/",
+                "api_url": "https://nucleus-api.alpha.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/",
+                "api_url": "https://nucleus-api.bravo.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.charlie.komodo.earth/",
+                "api_url": "https://nucleus-api.charlie.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.delta.komodo.earth/",
+                "api_url": "https://nucleus-api.delta.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/"
@@ -49691,7 +49804,24 @@
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://nucleus-rpc.alpha.komodo.earth/",
+                "api_url": "https://nucleus-api.alpha.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/",
+                "api_url": "https://nucleus-api.bravo.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.charlie.komodo.earth/",
+                "api_url": "https://nucleus-api.charlie.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.delta.komodo.earth/",
+                "api_url": "https://nucleus-api.delta.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
@@ -49726,7 +49856,24 @@
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://nucleus-rpc.alpha.komodo.earth/",
+                "api_url": "https://nucleus-api.alpha.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/",
+                "api_url": "https://nucleus-api.bravo.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.charlie.komodo.earth/",
+                "api_url": "https://nucleus-api.charlie.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.delta.komodo.earth/",
+                "api_url": "https://nucleus-api.delta.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
@@ -49736,7 +49883,7 @@
         "coin": "ZOIN",
         "type": "UTXO",
         "name": "ZoinCommunity",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "zoin-zoin",
         "coingecko_id": "",
         "livecoinwatch_id": "",
         "explorer_url": "http://zoincommunity.com:3001/",
