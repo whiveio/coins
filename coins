@@ -12621,10 +12621,10 @@
       }
     },
     "gas_limit": {
-        "eth_send_erc20": 100000,
-        "erc20_payment": 200000,
-        "erc20_receiver_spend": 150000,
-        "erc20_sender_refund": 150000
+        "eth_send_erc20": 200000,
+        "erc20_payment": 400000,
+        "erc20_receiver_spend": 300000,
+        "erc20_sender_refund": 300000
     }
   },
   {
