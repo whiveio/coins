@@ -5,6 +5,9 @@
     },
     {
       "url": "https://block-proxy.komodo.earth/rpc/osmo/"
+    },
+    {
+      "url": "https://osmosis.rpc.stakin-nodes.com"
     }
   ]
 }

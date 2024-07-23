@@ -10,6 +10,10 @@
     {
       "url": "https://block-proxy.komodo.earth/rpc/atom2/",
       "ws_url": "wss://block-proxy.komodo.earth/rpc/atom2/websocket"
+    },
+    {
+      "url": "https://cosmoshub.rpc.stakin-nodes.com/"
     }
+    
   ]
 }
