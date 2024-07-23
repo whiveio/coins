@@ -651,6 +651,49 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "ARB-ERC20",
+    "name": "arb_erc20",
+    "fname": "Arbitrum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "ARB-ARB20",
+    "name": "arb_arb20",
+    "fname": "Arbitrum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "ARPA-BEP20",
     "name": "arpa_bep20",
     "fname": "ARPA Chain",
@@ -4539,6 +4582,12 @@
     "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
+    },
+    "gas_limit": {
+        "eth_send_coins": 100000,
+        "eth_payment": 200000,
+        "eth_receiver_spend": 200000,
+        "eth_sender_refund": 200000
     }
   },
   {
@@ -8736,6 +8785,49 @@
     }
   },
   {
+    "coin": "MOR-ERC20",
+    "name": "mor_erc20",
+    "fname": "Morpheus",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "MOR-ARB20",
+    "name": "mor_arb20",
+    "fname": "Morpheus",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "MOVR",
     "name": "moonriver",
     "fname": "Moonriver",
@@ -12255,6 +12347,30 @@
     }
   },
   {
+    "coin": "USDC-ARB20",
+    "name": "usdc_arb20",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "avg_blocktime": 15,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "USDC-AVX20",
     "name": "usdc_avx20",
     "fname": "USD Coin",
@@ -12603,7 +12719,6 @@
     "fname": "Tether",
     "rpcport": 80,
     "mm2": 1,
-    "wallet_only": true,
     "chain_id": 42161,
     "avg_blocktime": 15,
     "decimals": 6,
@@ -12614,6 +12729,12 @@
         "platform": "ETH-ARB20",
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
     }
   },
   {
@@ -13166,6 +13287,30 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "WOO-ARB20",
+    "name": "woo_arb20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
   },
   {
     "coin": "WOO-AVX20",
