@@ -1,0 +1,5 @@
+[taker fee (MORTY)](https://morty.explorer.dexstats.info/tx/)  
+[maker payment (FRC)](https://explorer.lightningcash-coin.com/tx/)  
+[taker payment (MORTY)](https://morty.explorer.dexstats.info/tx/)  
+[taker payment spent (MORTY)](https://morty.explorer.dexstats.info/tx/)  
+[maker payment spent (FRC)](https://explorer.lightningcash-coin.com/tx/)  
