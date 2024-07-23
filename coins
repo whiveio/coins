@@ -651,6 +651,49 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "ARB-ERC20",
+    "name": "arb_erc20",
+    "fname": "Arbitrum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "ARB-ARB20",
+    "name": "arb_arb20",
+    "fname": "Arbitrum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "ARPA-BEP20",
     "name": "arpa_bep20",
     "fname": "ARPA Chain",

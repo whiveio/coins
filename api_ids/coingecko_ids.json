@@ -32,6 +32,8 @@
     "APE-ERC20": "apecoin",
     "APE-FTM20": "apecoin",
     "APE-PLG20": "apecoin",
+    "ARB-ERC20": "arbitrum",
+    "ARB-ARB20": "arbitrum",
     "ARPA-BEP20": "arpa",
     "ARPA-ERC20": "arpa",
     "ARPA-PLG20": "arpa",
