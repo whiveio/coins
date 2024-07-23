@@ -1690,6 +1690,115 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ARB-ERC20": {
+        "coin": "ARB-ERC20",
+        "type": "ERC-20",
+        "name": "Arbitrum",
+        "coinpaprika_id": "arb-arbitrum",
+        "coingecko_id": "arbitrum",
+        "livecoinwatch_id": "ARB",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Arbitrum",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "ARB-ARB20": {
+        "coin": "ARB-ARB20",
+        "type": "Arbitrum",
+        "name": "Arbitrum",
+        "coinpaprika_id": "arb-arbitrum",
+        "coingecko_id": "arbitrum",
+        "livecoinwatch_id": "ARB",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Arbitrum",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+            }
+        },
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "ARPA-BEP20": {
         "coin": "ARPA-BEP20",
         "type": "BEP-20",
@@ -5744,7 +5853,7 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50001",
+                "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -5753,7 +5862,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.btcz.rocks:50001",
+                "url": "electrum1.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -7423,6 +7532,10 @@
         "nodes": [
             {
                 "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -11191,6 +11304,16 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -11918,11 +12041,21 @@
         "protocol": {
             "type": "ETH"
         },
+        "gas_limit": {
+            "eth_send_coins": 100000,
+            "eth_payment": 200000,
+            "eth_receiver_spend": 200000,
+            "eth_sender_refund": 200000
+        },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
                 "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/",
@@ -22760,6 +22893,115 @@
         ],
         "explorer_block_url": "block/"
     },
+    "MOR-ERC20": {
+        "coin": "MOR-ERC20",
+        "type": "ERC-20",
+        "name": "Morpheus",
+        "coinpaprika_id": "mor-morpheusai",
+        "coingecko_id": "morpheusai",
+        "livecoinwatch_id": "____MOR",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Morpheus",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "MOR-ARB20": {
+        "coin": "MOR-ARB20",
+        "type": "Arbitrum",
+        "name": "Morpheus",
+        "coinpaprika_id": "mor-morpheusai",
+        "coingecko_id": "morpheusai",
+        "livecoinwatch_id": "____MOR",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Morpheus",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86"
+            }
+        },
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "MOVR": {
         "coin": "MOVR",
         "type": "Moonriver",
@@ -31956,6 +32198,56 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "USDC-ARB20": {
+        "coin": "USDC-ARB20",
+        "type": "Arbitrum",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "avg_blocktime": 15,
+        "decimals": 6,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+            }
+        },
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-AVX20": {
         "coin": "USDC-AVX20",
         "type": "AVX-20",
@@ -32804,7 +33096,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Tether",
         "rpcport": 80,
         "mm2": 1,
@@ -32819,6 +33111,12 @@
                 "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
             }
         },
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "parent_coin": "ETH-ARB20",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -32826,6 +33124,10 @@
         "nodes": [
             {
                 "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -34256,6 +34558,56 @@
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "WOO-ARB20": {
+        "coin": "WOO-ARB20",
+        "type": "Arbitrum",
+        "name": "WOO Network",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "livecoinwatch_id": "WOO",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "WOO Network",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b"
+            }
+        },
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/"
