@@ -1,13 +1,17 @@
 [
   {
-    "url": "electrumx.faircoin.tech:50001",
+    "url": "electrumx.faircoin.tech:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
     "contact": [
       { "email": "antoinebrulenew@gmail.com" },
       { "discord": "merlin#7125" }
     ]
   },
   {
-    "url": "electrumx2.faircoin.tech:50002",
+    "url": "electrumx2.faircoin.tech:50004",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
     "contact": [
       { "email": "antoinebrulenew@gmail.com" },
       { "discord": "merlin#7125" }
