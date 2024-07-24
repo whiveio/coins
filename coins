@@ -2354,7 +2354,13 @@
         "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "BTU-ERC20",
