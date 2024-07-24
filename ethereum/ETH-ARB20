@@ -8,6 +8,10 @@
         },
         {
             "url": "https://arb1.arbitrum.io/rpc"
+        },
+        {
+            "url": "https://arbitrum-one.publicnode.com",
+            "ws_url": "wss://arbitrum-one.publicnode.com"
         }
     ]
 }
