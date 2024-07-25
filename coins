@@ -9518,6 +9518,28 @@
     }
   },
   {
+    "coin": "PEP",
+    "name": "pepecoin",
+    "fname": "Pepecoin",
+    "rpcport": 33873,
+    "pubtype": 56,
+    "p2shtype": 22,
+    "wiftype": 158,
+    "segwit": false,
+    "txfee": 1000000,
+    "mm2": 1,
+    "sign_message_prefix": "Pepecoin Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/pepecoinppc/pepecoin",
+      "homepage": "https://pepecoin.org"
+    }
+  },
+  {
     "coin": "PINK",
     "name": "pink",
     "fname": "Pinkcoin",
