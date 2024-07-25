@@ -9587,6 +9587,68 @@
     }
   },
   {
+    "coin": "PENDLE-ARB20",
+    "name": "pendle_arb20",
+    "fname": "Pendle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8"
+      }
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
+    "coin": "PENDLE-ERC20",
+    "name": "pendle_erc20",
+    "fname": "Pendle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x808507121B80c02388fAd14726482e061B8da827"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "PENDLE-BEP20",
+    "name": "pendle_bep20",
+    "fname": "Pendle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xb3Ed0A426155B79B898849803E3B36552f7ED507"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "PINK",
     "name": "pink",
     "fname": "Pinkcoin",
