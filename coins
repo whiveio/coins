@@ -9296,6 +9296,63 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "OM-ERC20",
+    "name": "om_erc20",
+    "fname": "MANTRA",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "OM-BEP20",
+    "name": "om_bep20",
+    "fname": "MANTRA",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xF78D2e7936F5Fe18308A3B2951A93b6c4a41F5e2"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "OM-PLG20",
+    "name": "om_plg20",
+    "fname": "MANTRA",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xC3Ec80343D2bae2F8E680FDADDe7C17E71E114ea"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "OMG-ERC20",
     "name": "omg_erc20",
     "fname": "OMG Network",
