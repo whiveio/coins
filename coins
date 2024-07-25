@@ -686,6 +686,7 @@
         "contract_address": "0x912CE59144191C1204E64559FE8253a0e49E6548"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
@@ -2883,6 +2884,7 @@
         "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB"
       }
     }
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "CFX-BEP20",
@@ -4583,6 +4585,7 @@
     "protocol": {
       "type": "ETH"
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_coins": 100000,
         "eth_payment": 200000,
@@ -8820,6 +8823,7 @@
         "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
@@ -9603,6 +9607,7 @@
         "contract_address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
@@ -12494,6 +12499,7 @@
         "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
@@ -12861,6 +12867,7 @@
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
@@ -13436,6 +13443,7 @@
         "contract_address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
