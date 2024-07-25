@@ -9350,7 +9350,13 @@
         "contract_address": "0xC3Ec80343D2bae2F8E680FDADDe7C17E71E114ea"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "OMG-ERC20",
