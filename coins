@@ -7672,6 +7672,26 @@
     }
   },
   {
+    "coin": "FRC",
+    "name": "faircoin",
+    "fname": "FairCoin",
+    "rpcport": 9875,
+    "pubtype": 36,
+    "p2shtype": 63,
+    "wiftype": 128,
+    "decimals": 8,
+    "signature_version": "base",
+    "txfee": 10000,
+    "segwit": true,
+    "bech32_hrp": "frc",
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "LEO-ERC20",
     "name": "leo_erc20",
     "fname": "LEO Token",
