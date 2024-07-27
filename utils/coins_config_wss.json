@@ -651,10 +651,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -844,13 +846,13 @@
                 ]
             },
             {
+                "url": "electrumx-three.artbyte.live:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -1783,10 +1785,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -1967,6 +1971,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -3658,10 +3666,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -6543,6 +6553,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -7275,6 +7291,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8034,6 +8056,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -9295,10 +9321,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -9940,10 +9968,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -10468,6 +10498,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -11959,6 +11995,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -12604,6 +12646,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -12704,10 +12750,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -14519,10 +14567,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -14978,10 +15028,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -18757,6 +18809,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19940,6 +19998,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21529,10 +21593,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -21659,6 +21725,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -24264,6 +24336,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -29589,10 +29665,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -30092,10 +30170,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -30614,10 +30694,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -31259,10 +31341,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -32096,6 +32180,18 @@
                         "discord": "chmex#0686"
                     }
                 ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -32885,10 +32981,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -33846,6 +33944,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -34121,10 +34223,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -34584,10 +34688,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -34792,6 +34898,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -36320,6 +36430,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -36468,10 +36582,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -36510,6 +36626,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37694,6 +37816,10 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
             }
@@ -37973,10 +38099,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -41671,6 +41799,13 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/atom/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/atom2/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom2/websocket"
+            },
+            {
+                "url": "https://cosmoshub.rpc.stakin-nodes.com/"
             }
         ],
         "explorer_block_url": "block/",
@@ -41810,6 +41945,12 @@
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/osmo/"
+            },
+            {
+                "url": "https://osmosis.rpc.stakin-nodes.com"
+            },
+            {
+                "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
             }
         ],
         "explorer_block_url": "block/",
