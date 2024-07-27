@@ -328,7 +328,13 @@
         "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "ADX-BEP20",
@@ -572,7 +578,13 @@
         "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "APE-ERC20",
@@ -746,7 +758,13 @@
         "contract_address": "0xEE800B277A96B0f490a1A732e1D6395FAD960A26"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "ARRR",
@@ -846,7 +864,13 @@
         "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "AUR",
@@ -7076,7 +7100,13 @@
         "contract_address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "JPHP-PLG20",
@@ -10394,7 +10424,13 @@
         "contract_address": "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "RIC",
