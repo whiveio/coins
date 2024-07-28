@@ -1272,7 +1272,13 @@
         "contract_address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "BAND-ERC20",
@@ -5249,7 +5255,13 @@
         "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "FTC",
@@ -6578,7 +6590,13 @@
         "contract_address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "IOTX-BEP20",
@@ -9732,7 +9750,13 @@
         "contract_address": "0xd7c8469c7eC40f853dA5f651DE81b45aeD47e5aB"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "POWR-ERC20",
@@ -14216,7 +14240,13 @@
         "contract_address": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787"
       }
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "gas_limit": {
+        "eth_send_erc20": 60000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 80000,
+        "erc20_sender_refund": 80000
+    }
   },
   {
     "coin": "ZRX-AVX20",
