@@ -140,6 +140,7 @@
     "CRO-ERC20": "cro-cryptocom-chain",
     "CRO-KRC20": "cro-cryptocom-chain",
     "CRO-PLG20": "cro-cryptocom-chain",
+    "CRV-ARB20": "crv-curve-dao-token",
     "CRV-AVX20": "crv-curve-dao-token",
     "CRV-ERC20": "crv-curve-dao-token",
     "CRV-FTM20": "crv-curve-dao-token",

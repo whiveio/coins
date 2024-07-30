@@ -3335,7 +3335,7 @@
   {
     "coin": "CRV-ERC20",
     "name": "crv_erc20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -3352,9 +3352,34 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "CRV-ARB20",
+    "name": "crv_arb20",
+    "fname": "Curve DAO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "CRV-AVX20",
     "name": "crv_avx20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -3373,7 +3398,7 @@
   {
     "coin": "CRV-FTM20",
     "name": "crv_ftm20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 250,
@@ -3392,7 +3417,7 @@
   {
     "coin": "CRV-KRC20",
     "name": "crv_krc20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
@@ -3411,7 +3436,7 @@
   {
     "coin": "CRV-PLG20",
     "name": "crv_plg20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -5781,6 +5806,7 @@
         "contract_address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
       }
     },
+    "derivation_path": "m/44'/60'",
     "gas_limit": {
         "eth_send_erc20": 150000,
         "erc20_payment": 250000,
