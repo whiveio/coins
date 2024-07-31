@@ -651,10 +651,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -858,10 +860,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
@@ -878,10 +876,6 @@
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
-                "protocol": "WSS"
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
@@ -1848,10 +1842,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -2011,6 +2007,7 @@
                 "contract_address": "0x912CE59144191C1204E64559FE8253a0e49E6548"
             }
         },
+        "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 250000,
@@ -2032,6 +2029,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -2587,8 +2588,18 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -3965,10 +3976,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -6956,25 +6969,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.btcz.rocks:50004",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum1.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -7374,6 +7369,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -8126,6 +8127,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
+        },
         "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9012,6 +9019,7 @@
                 "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB"
             }
         },
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB",
         "parent_coin": "ETH-ARB20",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -9027,6 +9035,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -9738,7 +9750,20 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
@@ -10579,10 +10604,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -11272,10 +11299,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -11872,6 +11901,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14030,6 +14065,12 @@
             }
         },
         "derivation_path": "m/44'/714'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -14704,6 +14745,7 @@
         "protocol": {
             "type": "ETH"
         },
+        "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_coins": 100000,
             "eth_payment": 200000,
@@ -14723,6 +14765,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -14823,10 +14869,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -16931,10 +16979,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -17390,10 +17440,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -18594,16 +18646,6 @@
             {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "orpheas#1503"
@@ -22120,6 +22162,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -23303,6 +23351,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -25078,6 +25132,67 @@
         "electrum": [],
         "explorer_block_url": "block/"
     },
+    "FRC": {
+        "coin": "FRC",
+        "type": "UTXO",
+        "name": "FairCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.faircoin.tech/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "FairCoin",
+        "rpcport": 9875,
+        "pubtype": 36,
+        "p2shtype": 63,
+        "wiftype": 128,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "frc",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.faircoin.tech:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "antoinebrulenew@gmail.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.faircoin.tech:50004",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "antoinebrulenew@gmail.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "LEO-ERC20": {
         "coin": "LEO-ERC20",
         "type": "ERC-20",
@@ -25416,10 +25531,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -25546,6 +25663,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -28602,6 +28725,7 @@
                 "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86"
             }
         },
+        "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 250000,
@@ -28623,6 +28747,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30270,6 +30398,195 @@
         ],
         "explorer_block_url": "block/"
     },
+    "OM-ERC20": {
+        "coin": "OM-ERC20",
+        "type": "ERC-20",
+        "name": "MANTRA",
+        "coinpaprika_id": "om-mantra-dao",
+        "coingecko_id": "mantra-dao",
+        "livecoinwatch_id": "OM",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "MANTRA",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/eth",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
+                "contact": {
+                    "email": "smk@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "OM-BEP20": {
+        "coin": "OM-BEP20",
+        "type": "BEP-20",
+        "name": "MANTRA",
+        "coinpaprika_id": "om-mantra-dao",
+        "coingecko_id": "mantra-dao",
+        "livecoinwatch_id": "OM",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "MANTRA",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xF78D2e7936F5Fe18308A3B2951A93b6c4a41F5e2"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
+        "contract_address": "0xF78D2e7936F5Fe18308A3B2951A93b6c4a41F5e2",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnb",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "OM-PLG20": {
+        "coin": "OM-PLG20",
+        "type": "Matic",
+        "name": "MANTRA",
+        "coinpaprika_id": "om-mantra-dao",
+        "coingecko_id": "mantra-dao",
+        "livecoinwatch_id": "OM",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "MANTRA",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0xC3Ec80343D2bae2F8E680FDADDe7C17E71E114ea"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
+        "contract_address": "0xC3Ec80343D2bae2F8E680FDADDe7C17E71E114ea",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
+                "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "OMG-ERC20": {
         "coin": "OMG-ERC20",
         "type": "ERC-20",
@@ -30902,6 +31219,190 @@
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "PENDLE-ARB20": {
+        "coin": "PENDLE-ARB20",
+        "type": "Arbitrum",
+        "name": "Pendle",
+        "coinpaprika_id": "pendle-pendle",
+        "coingecko_id": "pendle",
+        "livecoinwatch_id": "PENDLE",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Pendle",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "PENDLE-ERC20": {
+        "coin": "PENDLE-ERC20",
+        "type": "ERC-20",
+        "name": "Pendle",
+        "coinpaprika_id": "pendle-pendle",
+        "coingecko_id": "pendle",
+        "livecoinwatch_id": "PENDLE",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Pendle",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x808507121B80c02388fAd14726482e061B8da827"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x808507121B80c02388fAd14726482e061B8da827",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/eth",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
+                "contact": {
+                    "email": "smk@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "PENDLE-BEP20": {
+        "coin": "PENDLE-BEP20",
+        "type": "BEP-20",
+        "name": "Pendle",
+        "coinpaprika_id": "pendle-pendle",
+        "coingecko_id": "pendle",
+        "livecoinwatch_id": "PENDLE",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Pendle",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xb3Ed0A426155B79B898849803E3B36552f7ED507"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xb3Ed0A426155B79B898849803E3B36552f7ED507",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnb",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "PINK": {
@@ -33284,16 +33785,7 @@
             "github": "https://github.com/reddcoin-project/reddcoin",
             "homepage": "https://reddcoin.com"
         },
-        "electrum": [
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50004",
-                "protocol": "WSS"
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "REN-ERC20": {
@@ -35262,10 +35754,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -35837,10 +36331,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -36436,10 +36932,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -37081,10 +37579,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -38203,6 +38703,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
@@ -38215,7 +38727,31 @@
                 ]
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -39019,10 +39555,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -39987,6 +40525,7 @@
                 "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
             }
         },
+        "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 250000,
@@ -40008,6 +40547,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -40283,10 +40826,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -40746,10 +41291,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -40933,6 +41480,7 @@
                 "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
             }
         },
+        "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 250000,
@@ -40954,6 +41502,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -42876,6 +43428,7 @@
                 "contract_address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b"
             }
         },
+        "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 250000,
@@ -42897,6 +43450,10 @@
             {
                 "url": "https://arbitrum-one.publicnode.com",
                 "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -43045,10 +43602,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -43087,6 +43646,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -43603,6 +44168,15 @@
                 "protocol": "TCP"
             },
             {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "lenoir.ecoincore.com:10892",
                 "protocol": "SSL"
             },
@@ -43651,6 +44225,15 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
+            },
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
@@ -44518,8 +45101,16 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx-verge.cloud:50004",
@@ -44801,10 +45392,12 @@
                 "gui_auth": true
             },
             {
-                "url": "https://fantom.drpc.org"
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
             },
             {
-                "url": "https://fantom-pokt.nodies.app"
+                "url": "https://fantom-rpc.publicnode.com",
+                "ws_url": "wss://fantom-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/ftm",
@@ -49857,6 +50450,13 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/atom/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/atom2/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom2/websocket"
+            },
+            {
+                "url": "https://cosmoshub.rpc.stakin-nodes.com/"
             }
         ],
         "explorer_block_url": "block/",
@@ -49996,6 +50596,12 @@
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/osmo/"
+            },
+            {
+                "url": "https://osmosis.rpc.stakin-nodes.com"
+            },
+            {
+                "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
             }
         ],
         "explorer_block_url": "block/",
