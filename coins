@@ -677,8 +677,8 @@
     "mm2": 1,
     "chain_id": 42161,
     "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -2887,8 +2887,8 @@
     "wallet_only": true,
     "chain_id": 42161,
     "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -3335,7 +3335,7 @@
   {
     "coin": "CRV-ERC20",
     "name": "crv_erc20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -3352,9 +3352,34 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "CRV-ARB20",
+    "name": "crv_arb20",
+    "fname": "Curve DAO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "CRV-AVX20",
     "name": "crv_avx20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -3373,7 +3398,7 @@
   {
     "coin": "CRV-FTM20",
     "name": "crv_ftm20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 250,
@@ -3392,7 +3417,7 @@
   {
     "coin": "CRV-KRC20",
     "name": "crv_krc20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
@@ -3411,7 +3436,7 @@
   {
     "coin": "CRV-PLG20",
     "name": "crv_plg20",
-    "fname": "Curve DAO Token",
+    "fname": "Curve DAO",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -4604,8 +4629,8 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 42161,
-    "required_confirmations": 3,
-    "avg_blocktime": 15,
+    "required_confirmations": 10,
+    "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
     },
@@ -5765,6 +5790,31 @@
     }
   },
   {
+    "coin": "GMX-ARB20",
+    "name": "gmx_arb20",
+    "fname": "GMX",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "GMX-AVX20",
     "name": "gmx_avx20",
     "fname": "GMX",
@@ -5830,6 +5880,31 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "GNS-ARB20",
+    "name": "gns_arb20",
+    "fname": "Gains Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
   },
   {
     "coin": "GNS-PLG20",
@@ -5939,6 +6014,31 @@
     "links": {
       "github": "https://github.com/Groestlcoin/groestlcoin",
       "homepage": "https://www.groestlcoin.org"
+    }
+  },
+  {
+    "coin": "GRT-ARB20",
+    "name": "grt_arb20",
+    "fname": "The Graph",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
     }
   },
   {
@@ -8876,8 +8976,8 @@
     "mm2": 1,
     "chain_id": 42161,
     "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9660,8 +9760,8 @@
     "mm2": 1,
     "chain_id": 42161,
     "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -12551,9 +12651,9 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 42161,
-    "avg_blocktime": 15,
     "decimals": 6,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -12919,9 +13019,9 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 42161,
-    "avg_blocktime": 15,
     "decimals": 6,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13496,8 +13596,8 @@
     "mm2": 1,
     "chain_id": 42161,
     "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
