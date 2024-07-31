@@ -6017,6 +6017,31 @@
     }
   },
   {
+    "coin": "GRT-ARB20",
+    "name": "grt_arb20",
+    "fname": "The Graph",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 250000,
+        "erc20_receiver_spend": 200000,
+        "erc20_sender_refund": 200000
+    }
+  },
+  {
     "coin": "GRT-AVX20",
     "name": "grt_avx20",
     "fname": "The Graph",
