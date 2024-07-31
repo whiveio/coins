@@ -1,0 +1,20 @@
+[
+    {
+        "url": "electrum.pepeblocks.com:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum.pepeblocks.com:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum.pepeblocks.com:50004"
+    },
+    {
+        "url": "electrum.pepelum.site:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum.pepelum.site:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum.pepelum.site:50004"
+    }
+]
