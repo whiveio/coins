@@ -36795,11 +36795,11 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.vanillacash.info:50011",
+                "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx2.vanillacash.info:50011",
+                "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             }
         ],
