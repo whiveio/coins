@@ -13371,6 +13371,23 @@
     "derivation_path": "m/44'/141'",
     "trezor_coin": "Komodo"
   },
+  { 
+    "coin": "vDEX",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "vDEX",
+    "fname": "vDEX",
+    "rpcport": 21778,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
   {
     "coin": "VAL",
     "name": "validity",
