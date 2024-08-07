@@ -8217,49 +8217,6 @@
     "derivation_path": "m/44'/966'"
   },
   {
-    "coin": "WCN",
-    "name": "widecoin",
-    "fname": "Widecoin",
-    "rpcport": 8552,
-    "pubtype": 73,
-    "p2shtype": 33,
-    "wiftype": 153,
-    "txfee": 100000,
-    "segwit": true,
-    "bech32_hrp": "wc",
-    "mm2": 1,
-    "wallet_only": false,
-    "required_confirmations": 2,
-    "avg_blocktime": 30,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/613'"
-  },
-  {
-    "coin": "WCN-segwit",
-    "name": "widecoin",
-    "fname": "Widecoin",
-    "rpcport": 8552,
-    "pubtype": 73,
-    "p2shtype": 33,
-    "wiftype": 153,
-    "txfee": 100000,
-    "segwit": true,
-    "bech32_hrp": "wc",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "WCN",
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 30,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/613'"
-  },
-  {
     "coin": "LEASH-ERC20",
     "name": "leash_erc20",
     "fname": "Doge Killer",
@@ -13335,24 +13292,6 @@
     "links": {
       "homepage": "https://tether.to"
     }
-  },
-  {
-    "coin": "WWCN-ERC20",
-    "name": "wwcn_erc20",
-    "fname": "Wrapped Widecoin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "vARRR",
