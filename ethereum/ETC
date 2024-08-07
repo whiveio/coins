@@ -6,13 +6,10 @@
       "url": "https://etc.etcdesktop.com"
     },
     {
-      "url": "https://geth-at.etc-network.info"
+      "url": "https://rpc.etcinscribe.com"
     },
     {
       "url": "https://etc.rivet.link"
-    },
-    {
-      "url": "https://besu-at.etc-network.info"
     }
   ]
 }
