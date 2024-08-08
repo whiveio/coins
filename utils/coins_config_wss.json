@@ -849,6 +849,10 @@
         },
         "electrum": [
             {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "aby-ex-four.ewmci.online:50013",
                 "protocol": "WSS",
                 "contact": [
@@ -861,10 +865,6 @@
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -12550,13 +12550,10 @@
                 "url": "https://etc.etcdesktop.com"
             },
             {
-                "url": "https://geth-at.etc-network.info"
+                "url": "https://rpc.etcinscribe.com"
             },
             {
                 "url": "https://etc.rivet.link"
-            },
-            {
-                "url": "https://besu-at.etc-network.info"
             }
         ],
         "explorer_block_url": "block/",
@@ -28747,6 +28744,60 @@
         ],
         "explorer_block_url": "block/"
     },
+    "RDD": {
+        "coin": "RDD",
+        "type": "UTXO",
+        "name": "ReddCoin",
+        "coinpaprika_id": "rdd-reddcoin",
+        "coingecko_id": "reddcoin",
+        "livecoinwatch_id": "RDD",
+        "explorer_url": "https://live.reddcoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "ReddCoin",
+        "isPoSV": 1,
+        "rpcport": 45443,
+        "pubtype": 61,
+        "p2shtype": 5,
+        "wiftype": 189,
+        "txversion": 2,
+        "txfee": 100000,
+        "dust": 100000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 30,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/4'",
+        "trezor_coin": "Reddcoin",
+        "links": {
+            "github": "https://github.com/reddcoin-project/reddcoin",
+            "homepage": "https://reddcoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "REN-ERC20": {
         "coin": "REN-ERC20",
         "type": "ERC-20",
@@ -35939,75 +35990,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "WWCN-ERC20": {
-        "coin": "WWCN-ERC20",
-        "type": "ERC-20",
-        "name": "Wrapped Widecoin",
-        "coinpaprika_id": "wwcn-wrapped-widecoin",
-        "coingecko_id": "wrapped-widecoin",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Wrapped Widecoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
-        "nodes": [
-            {
-                "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
-            },
-            {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/eth",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
-                "contact": {
-                    "email": "smk@komodoplatform.com"
-                }
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "vARRR": {
         "coin": "vARRR",
         "type": "Smart Chain",
@@ -36064,6 +36046,75 @@
             },
             {
                 "url": "electrum3.cipig.net:30009",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "vDEX": {
+        "coin": "vDEX",
+        "type": "Smart Chain",
+        "name": "vDEX",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.vdex.to/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "vDEX",
+        "fname": "vDEX",
+        "rpcport": 21778,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:30010",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:30010",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -38457,11 +38508,11 @@
         },
         "electrum": [
             {
-                "url": "electrumx2.vanillacash.info:50013",
+                "url": "electrumx1.vanillacash.info:50013",
                 "protocol": "WSS"
             },
             {
-                "url": "electrumx1.vanillacash.info:50013",
+                "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -39401,6 +39452,10 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-d.zetacoin.network:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50013",
                 "protocol": "WSS",
                 "contact": [
@@ -39408,10 +39463,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -42621,15 +42672,10 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
-                "url": "https://cosmos.komodo.earth/"
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/atom/",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/atom2/",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom2/websocket"
+                "url": "https://cosmos-rpc.alpha.komodo.earth/",
+                "api_url": "https://cosmos-api.alpha.komodo.earth/",
+                "grpc_url": "https://cosmos-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://cosmos-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://cosmoshub.rpc.stakin-nodes.com/"
@@ -42671,7 +42717,10 @@
         "derivation_path": "m/44'/566'",
         "rpc_urls": [
             {
-                "url": "https://iris.komodo.earth/"
+                "url": "https://iris-rpc.alpha.komodo.earth/",
+                "api_url": "https://iris-api.alpha.komodo.earth/",
+                "grpc_url": "https://iris-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://iris-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
@@ -42771,13 +42820,16 @@
                 "url": "https://rpc.osmosis.zone/"
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/osmo/"
-            },
-            {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
             },
             {
                 "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
+            },
+            {
+                "url": "https://osmosis-rpc.alpha.komodo.earth/",
+                "api_url": "https://osmosis-api.alpha.komodo.earth/",
+                "grpc_url": "https://osmosis-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://osmosis-rpc.alpha.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -42814,7 +42866,10 @@
         "parent_coin": "IRIS",
         "rpc_urls": [
             {
-                "url": "https://iris.komodo.earth/"
+                "url": "https://iris-rpc.alpha.komodo.earth/",
+                "api_url": "https://iris-api.alpha.komodo.earth/",
+                "grpc_url": "https://iris-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://iris-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
@@ -42876,18 +42931,6 @@
                 "contact": [
                     {
                         "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.mazacha.in:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
                     }
                 ]
             }
@@ -43264,22 +43307,26 @@
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
                 "api_url": "https://nucleus-api.alpha.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.bravo.komodo.earth/",
                 "api_url": "https://nucleus-api.bravo.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.bravo.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.charlie.komodo.earth/",
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.delta.komodo.earth/",
                 "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/"
@@ -43350,22 +43397,26 @@
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
                 "api_url": "https://nucleus-api.alpha.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.bravo.komodo.earth/",
                 "api_url": "https://nucleus-api.bravo.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.bravo.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.charlie.komodo.earth/",
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.delta.komodo.earth/",
                 "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
@@ -43402,26 +43453,87 @@
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
                 "api_url": "https://nucleus-api.alpha.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.bravo.komodo.earth/",
                 "api_url": "https://nucleus-api.bravo.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.bravo.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.charlie.komodo.earth/",
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.delta.komodo.earth/",
                 "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
+    },
+    "LUPA": {
+        "coin": "LUPA",
+        "type": "Smart Chain",
+        "name": "Lupaza",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lupacoin.biz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "LUPA",
+        "fname": "Lupaza",
+        "rpcport": 64151,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "ZOIN": {
         "coin": "ZOIN",
