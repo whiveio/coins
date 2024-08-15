@@ -1015,6 +1015,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "use_access_list": true,
+    "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 2.4,
     "protocol": {
@@ -1965,6 +1966,7 @@
     "mm2": 1,
     "chain_id": 56,
     "use_access_list": true,
+    "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
@@ -4820,6 +4822,7 @@
     },
     "derivation_path": "m/44'/60'",
     "use_access_list": true,
+    "max_eth_tx_type": 2,
     "gas_limit": {
         "eth_send_coins": 100000,
         "eth_payment": 250000,
@@ -8777,6 +8780,7 @@
     "mm2": 1,
     "chain_id": 137,
     "use_access_list": true,
+    "max_eth_tx_type": 2,
     "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
