@@ -846,10 +846,6 @@
         },
         "electrum": [
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "aby-ex-four.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -862,6 +858,10 @@
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -1404,6 +1404,52 @@
                 "contact": [
                     {
                         "discord": "482101557383528448"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "ANEY": {
+        "coin": "ANEY",
+        "type": "UTXO",
+        "name": "Animal Economy",
+        "coinpaprika_id": "aney-animal-economy",
+        "coingecko_id": "",
+        "livecoinwatch_id": "ANEY",
+        "explorer_url": "https://explorer.aney.one/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Animal Economy",
+        "rpcport": 33500,
+        "pubtype": 23,
+        "p2shtype": 63,
+        "wiftype": 210,
+        "txfee": 100000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/119'",
+        "links": {
+            "github": "https://github.com/Animal-Economy/ANEY",
+            "homepage": "https://aney.one"
+        },
+        "electrum": [
+            {
+                "url": "e1.aney.one:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "telegram": "@SimonCeo"
                     }
                 ]
             }
@@ -4507,6 +4553,15 @@
         },
         "electrum": [
             {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -5931,10 +5986,6 @@
         "electrum": [
             {
                 "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
             }
         ],
@@ -9024,7 +9075,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -11104,7 +11155,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -11772,18 +11823,6 @@
         "electrum": [
             {
                 "url": "electrum1.cipig.net:20052",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20052",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16158,16 +16197,6 @@
             {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "orpheas#1503"
@@ -25390,7 +25419,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -27931,7 +27960,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -28010,7 +28039,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -28089,7 +28118,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -28468,7 +28497,7 @@
         "wiftype": 128,
         "segwit": true,
         "bech32_hrp": "qc",
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "force_min_relay_fee": true,
@@ -28689,10 +28718,6 @@
             "homepage": "https://reddcoin.com"
         },
         "electrum": [
-            {
-                "url": "electrum01.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
@@ -29063,6 +29088,15 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -29111,6 +29145,15 @@
                     },
                     {
                         "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -29707,6 +29750,63 @@
                 "contact": {
                     "email": "smk@komodoplatform.com"
                 }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GRR": {
+        "coin": "GRR",
+        "type": "UTXO",
+        "name": "Ghostridercoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://grr.oasispool.xyz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Ghostridercoin",
+        "rpcport": 15420,
+        "pubtype": 38,
+        "p2shtype": 16,
+        "wiftype": 128,
+        "txfee": 1000,
+        "mm2": 1,
+        "confpath": "USERHOME/.grcoincore/grcoin.conf",
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/10226'",
+        "electrum": [
+            {
+                "url": "electrum.electrumx-coin.shop:50008",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.electrumx-coin.shop:50008",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -32878,18 +32978,6 @@
         "electrum": [
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -36579,6 +36667,21 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -36594,7 +36697,7 @@
                 ]
             },
             {
-                "url": "electrum3.grms.pw:50002",
+                "url": "electrum2.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -37761,18 +37864,6 @@
                         "discord": "456566604809895947"
                     }
                 ]
-            },
-            {
-                "url": "electrumx3.neurai.top:50001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -38160,6 +38251,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "XVC": {
+        "coin": "XVC",
+        "type": "UTXO",
+        "name": "VanillaCash",
+        "coinpaprika_id": "xvc-vcash",
+        "coingecko_id": "vcash",
+        "livecoinwatch_id": "XVC",
+        "explorer_url": "https://chainz.cryptoid.info/xvc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "VanillaCash",
+        "isPoS": 1,
+        "rpcport": 48888,
+        "pubtype": 18,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "txfee": 1000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "XVC-BEP20": {
         "coin": "XVC-BEP20",
         "type": "BEP-20",
@@ -38235,7 +38368,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -39094,10 +39227,6 @@
         },
         "electrum": [
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -39366,7 +39495,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -39573,7 +39702,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -39653,7 +39782,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -39733,7 +39862,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -39813,7 +39942,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -39893,7 +40022,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -39973,7 +40102,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -40053,7 +40182,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -40133,7 +40262,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -41852,15 +41981,6 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
-            },
-            {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -42416,6 +42536,18 @@
                         "discord": "Bago#7842"
                     }
                 ]
+            },
+            {
+                "url": "electrum4.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -42808,6 +42940,18 @@
                 "contact": [
                     {
                         "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
                     }
                 ]
             }
