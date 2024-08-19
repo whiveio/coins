@@ -9436,8 +9436,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
