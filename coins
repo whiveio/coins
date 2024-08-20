@@ -8632,9 +8632,9 @@
     "derivation_path": "m/44'/641'"
   },
   {
-    "coin": "MC-ERC20",
-    "name": "mc_erc20",
-    "fname": "Merit Circle",
+    "coin": "MC-ERC20_OLD",
+    "name": "mc_erc20_old",
+    "fname": "Merit Circle (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -8651,9 +8651,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "MC-BEP20",
-    "name": "mc_bep20",
-    "fname": "Merit Circle",
+    "coin": "MC-BEP20_OLD",
+    "name": "mc_bep20_old",
+    "fname": "Merit Circle (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
