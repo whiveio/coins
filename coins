@@ -1797,9 +1797,9 @@
     "derivation_path": "m/44'/1023'"
   },
   {
-    "coin": "BIDR-BEP20",
-    "name": "bidr_bep20",
-    "fname": "BIDR",
+    "coin": "BIDR-BEP20_OLD",
+    "name": "bidr_bep20_old",
+    "fname": "BIDR (OLD)",
     "rpcport": 80,
     "chain_id": 56,
     "mm2": 1,
