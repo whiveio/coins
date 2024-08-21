@@ -215,6 +215,8 @@
     "EURS-PLG20": "eurs-stasis-eurs",
     "EVR": "evr-evrmore",
     "EWT": "ewt-energy-web-token",
+    "FDUSD-ERC20": "fdusd-first-digital-usd",
+    "FDUSD-BEP20": "fdusd-first-digital-usd",
     "FEI-ERC20": "fei-fei-protocol",
     "FET-BEP20": "fetch-ai",
     "FET-ERC20": "fetch-ai",
