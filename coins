@@ -5056,7 +5056,7 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
+        "eth_send_erc20": 65000,
         "erc20_payment": 110000,
         "erc20_receiver_spend": 85000,
         "erc20_sender_refund": 85000
