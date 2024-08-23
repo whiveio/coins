@@ -5011,6 +5011,58 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "FDUSD-ERC20",
+    "name": "fdusd_erc20",
+    "fname": "First Digital USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://firstdigitallabs.com"
+    }
+  },
+  {
+    "coin": "FDUSD-BEP20",
+    "name": "fdusd_bep20",
+    "fname": "First Digital USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://firstdigitallabs.com"
+    },
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 70000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 85000,
+        "erc20_sender_refund": 85000
+    }
+  },
+  {
     "coin": "FEI-ERC20",
     "name": "fei_erc20",
     "fname": "Fei USD",
